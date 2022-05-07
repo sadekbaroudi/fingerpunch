@@ -10,6 +10,10 @@ BOM:
   * Note that you need either both (a)s or both (b)s
 * MCU headers (2x 12pos and 1x 5pos for elite-c or stemcell, 2x 12pos and 1x 3pos for nice!nano)
   * IMPORTANT - The headers should be 0.6mm, so if you are using header sockets, be sure they are not the ones that are taller than that. They should sit flush with the PCB (these should work: https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp./315-47-110-41-004000/8575758 )
+* MCU
+  * If blackpill edition, get the STM32F4x1 blackpill: https://github.com/WeActTC/MiniSTM32F4x1
+  * If byo-mcu, you can use an elite-c, nice!nano, or STeMcell. The STeMcell repo is here, and I highly recommend it! https://github.com/megamind4089/STeMCell
+  * Note, if you are using a cirque, as of this writing (2022-05), you cannot use an elite-c. There is a known issue with AVR based processors and the cirque trackpad.
 * 66 MX switches or 64 MX switches if using under palm encoders
 * 66 kailh hotswap sockets or 64 kailh hotswap sockets if using under palm encoders
 * (optional) 66 SK6812 mini-e leds for per key rgb
