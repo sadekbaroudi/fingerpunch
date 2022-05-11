@@ -1,7 +1,7 @@
 # Rock On
 
 Build guide video:
-https://www.youtube.com/watch?v=5SP6BVhE9x0&ab_channel=SadekBaroudi
+https://www.youtube.com/watch?v=X1Lgvs7PZt4&ab_channel=fingerpunch
 
 BOM:
 * Rock On case
