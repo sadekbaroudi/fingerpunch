@@ -3,6 +3,8 @@
 Build guide video:
 https://www.youtube.com/watch?v=X1Lgvs7PZt4&ab_channel=fingerpunch
 
+Important: If using a STeMcell, before doing anything, see reference image 2 below. You will need to solder these jumpers together, as circled in the image.
+
 BOM:
 * Rock On case
 * (a) 10 M2 heat set inserts (4mm) OR (b) 12 M2 standoffs (8mm)
@@ -25,3 +27,6 @@ BOM:
 
 Reference image 1:
 ![oledsocket](images/oled-socket.jpg)
+
+Reference image 2:
+![STeMcell jumpers](images/stemcell-jumpers.jpg)
