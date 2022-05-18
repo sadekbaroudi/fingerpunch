@@ -3,7 +3,9 @@
 Build guide video:
 https://www.youtube.com/watch?v=X1Lgvs7PZt4&ab_channel=fingerpunch
 
-Important: If using a STeMcell, before doing anything, see reference image 2 below. You will need to solder these jumpers together, as circled in the image.
+Pre-steps:
+* If using a STeMcell, before doing anything, see reference image 2 below. You will need to solder these jumpers together, as circled in the image.
+* Remove the R1 resistor from the back of the trackpad. This enables I2C on the trackpad, which is required for the fingerpunch builds. It's a very small resistor, so please do so carefully.
 
 BOM:
 * Rock On case
