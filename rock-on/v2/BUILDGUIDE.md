@@ -1,13 +1,13 @@
 # Rock On
 
-Build guide video:
+## Build guide video:
 https://www.youtube.com/watch?v=X1Lgvs7PZt4&ab_channel=fingerpunch
 
-Pre-steps:
+## Pre-steps:
 * If using a STeMcell, before doing anything, see reference image 2 below. You will need to solder these jumpers together, as circled in the image.
 * Remove the R1 resistor from the back of the trackpad. This enables I2C on the trackpad, which is required for the fingerpunch builds. It's a very small resistor, so please do so carefully.
 
-BOM:
+## BOM:
 * Rock On case
 * (a) 10 M2 heat set inserts (4mm) OR (b) 12 M2 standoffs (8mm)
 * (a) 10 M2 screws (5-6mm) OR (b) 24 M2 screws (5mm)
@@ -26,6 +26,14 @@ BOM:
   * If using an OLED, you should *not* solder the headers on the OLED such that they are flush with the pcb. On a MX build, there is a 10mm gap between the pcb and the underside of the case where the OLED will rest. So, it will sit too low and will not be sitting flush with the OLED hole in the case. I suggest using the socket below, as it's tall and will allow you to adjust the height of the OLED by cutting the pre-soldered pins on the OLED itself to rest at the right height to sit flush with the Rock On case. See "Reference image 1" below
   * https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC121LFBN-RC/810184?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_DK%2BSupplier_Tier%202%20-%20Block%202&utm_term=&utm_content=&gclid=CjwKCAjwjtOTBhAvEiwASG4bCBAySUG3bc8MOYVl8rFdJTeJl8H1ZVGDSXxpFjlF3NGdhI6gDOlicxoCk4gQAvD_BwE
 * (optional) 2x EC11 rotary encoders
+
+## Firmware
+
+* Until the STeMcell PR gets merged into master ( https://github.com/qmk/qmk_firmware/pull/16287 ), you will need to use my branch ( https://github.com/sadekbaroudi/qmk_firmware/tree/stemcell_v1.0.1_plus )
+* Clone the repo and checkout the stemcell_v1.0.1_plus branch
+* Build any keyboard that you are using, but add STMC=yes to the make command. For example:
+       make fingerpunch/rockon/v2/cirque_ec11:default STMC=yes
+This will generate a uf2 file, not a hex, not a bin. When you reset the STeMcell controller, it will pop up a window for an external drive. At this point, drag the uf2 file onto that window. That's it!
 
 Reference image 1:
 ![oledsocket](images/oled-socket.jpg)
