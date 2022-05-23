@@ -1,1 +1,49 @@
 # ffkb
+
+## BUILDGUIDE
+
+For the ffkb, the feature support is almost identical to the Rock On. Please see the build guide and video for that keyboard, and follow the same general steps.
+
+https://github.com/sadekbaroudi/fingerpunch/blob/master/rock-on/v2/BUILDGUIDE.md
+
+## Pre-steps:
+* If using a STeMcell, before doing anything, see reference image 2 below. You will need to solder these jumpers together, as circled in the image.
+* Remove the R1 resistor from the back of the cirque trackpad. This enables I2C on the trackpad, which is required for the fingerpunch builds. It's a very small resistor, so please do so carefully.
+
+## BOM
+
+### ffkb v2 case
+
+* (a) 8 M2 heat set inserts (4mm) OR (b) 8 M2 standoffs (8mm)
+* (a) 8 M2 screws (4-5mm) OR (b) 16 M2 screws (5mm)
+  * Note that you need either both (a)s or both (b)s
+
+### ffkb v1 case
+
+* (a) 9x 10mm-11mm M2 standoffs AND (b) 18 M2 screws (5mm)
+
+### Irrespective of case
+
+* MCU headers (2x 12pos and 1x 5pos for elite-c or stemcell, 2x 12pos and 1x 3pos for nice!nano)
+  * IMPORTANT - The headers should be 2.0mm to 2.5mm, so if you are using header sockets, be sure they are not the ones that are within the range (or very close). These are a good example of header sockets that should work: https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp./315-47-110-41-004000/8575758 )
+  * Please test the header height before soldering them on to make sure that it all lines up correctly!
+* MCU
+  * You can use an elite-c, nice!nano, or STeMcell. The STeMcell repo is here, and I highly recommend it! https://github.com/megamind4089/STeMCell
+  * Note, if you are using a cirque, as of this writing (2022-05), you cannot use an elite-c. There is a known issue with AVR based processors and the cirque trackpad.
+* 36 switches or 42 switches (5 column vs 6 column). PCB supports both choc and MX switches
+* 36 hotswap sockets or 42 hotswap sockets (5 column vs 6 column). PCB supports both choc and MX switches
+* (optional) 36 or 42 SK6812 mini-e leds for per key rgb
+* (optional) 35mm cirque trackpad and 12pin 0.5mm pitch ffc cable
+* (optional) 0.96 inch OLED
+  * If using an the V2 case and an OLED, you should *not* solder the headers on the OLED such that they are flush with the pcb. On a MX build, there is a 10mm gap between the pcb and the underside of the case where the OLED will rest. So, it will sit too low and will not be sitting flush with the OLED hole in the case. I suggest using the socket below, as it's tall and will allow you to adjust the height of the OLED by cutting the pre-soldered pins on the OLED itself to rest at the right height to sit flush with the Rock On case. See "Reference image 1" below
+  * https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC121LFBN-RC/810184?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_DK%2BSupplier_Tier%202%20-%20Block%202&utm_term=&utm_content=&gclid=CjwKCAjwjtOTBhAvEiwASG4bCBAySUG3bc8MOYVl8rFdJTeJl8H1ZVGDSXxpFjlF3NGdhI6gDOlicxoCk4gQAvD_BwE
+* (optional) 2x EC11 or evqwgd001 rotary encoders
+* (optional) 1x EC11 encoder for the center
+
+* NOTE: you can only use one center component with the fingerpunch ffkb cases. That means OLED or Pimoroni or EC11 (center one) or cirque trackpad.
+
+Reference image 1:
+![oledsocket](../rock-on/v2/images/oled-socket.jpg)
+
+Reference image 2:
+![STeMcell jumpers](../rock-on/v2/images/stemcell-jumpers.jpg)

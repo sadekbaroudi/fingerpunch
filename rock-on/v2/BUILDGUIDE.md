@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=X1Lgvs7PZt4&ab_channel=fingerpunch
   * Note that you need either both (a)s or both (b)s
 * MCU headers (2x 12pos and 1x 5pos for elite-c or stemcell, 2x 12pos and 1x 3pos for nice!nano)
   * IMPORTANT - The headers should be 2.0mm to 2.5mm, so if you are using header sockets, be sure they are not the ones that are within the range (or very close). These are a good example of header sockets that should work: https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp./315-47-110-41-004000/8575758 )
+  * Please test the header height before soldering them on to make sure that it all lines up correctly!
 * MCU
   * If blackpill edition, get the STM32F4x1 blackpill: https://github.com/WeActTC/MiniSTM32F4x1
   * If byo-mcu, you can use an elite-c, nice!nano, or STeMcell. The STeMcell repo is here, and I highly recommend it! https://github.com/megamind4089/STeMCell
