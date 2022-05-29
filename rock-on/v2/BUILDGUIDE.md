@@ -1,13 +1,16 @@
 # Rock On
 
-## Build guide video:
+## Build guide video
 https://www.youtube.com/watch?v=X1Lgvs7PZt4&ab_channel=fingerpunch
 
-## Pre-steps:
+## Pre-steps
 * If using a STeMcell, before doing anything, see reference image 2 below. You will need to solder these jumpers together, as circled in the image.
 * Remove the R1 resistor from the back of the trackpad. This enables I2C on the trackpad, which is required for the fingerpunch builds. It's a very small resistor, so please do so carefully.
 
-## BOM:
+## Other notes
+* If using a fingerpunch case, the cases are ever so slightly off at the columns towards the outside. To make it easier to assemble, put the switches into the case first, and then press the pcb into the switches. You may need to flex the PCB a bit for the outer switches. This is perfectly fine!
+
+## BOM
 * Rock On case
 * (a) 10 M2 heat set inserts (4mm) OR (b) 12 M2 standoffs (8mm)
 * (a) 10 M2 screws (5-6mm) OR (b) 24 M2 screws (5mm)
