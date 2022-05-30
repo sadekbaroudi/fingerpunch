@@ -1,7 +1,8 @@
 # Rock On
 
-## Build guide video
-https://www.youtube.com/watch?v=X1Lgvs7PZt4&ab_channel=fingerpunch
+## Build guide videos
+* Rock On v2 with MX switches and cirque: https://www.youtube.com/watch?v=X1Lgvs7PZt4&ab_channel=fingerpunch
+* Rock On v2.1 with Choc switches, cirque, and per key leds: https://youtu.be/LKTFEaT3yzU
 
 ## Pre-steps
 * If using a STeMcell, before doing anything, see reference image 2 below. You will need to solder these jumpers together, as circled in the image.
