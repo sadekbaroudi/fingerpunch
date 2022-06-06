@@ -7,7 +7,7 @@ For the ffkb, the feature support is almost identical to the Rock On. Please see
 https://github.com/sadekbaroudi/fingerpunch/blob/master/rock-on/v2/BUILDGUIDE.md
 
 ## Pre-steps
-* If using a STeMcell, before doing anything, see reference image 2 below. You will need to solder these jumpers together, as circled in the image.
+* If using a STeMcell, before doing anything, see https://github.com/sadekbaroudi/fingerpunch/blob/master/stemcell/README.md#stemcell-jumpers
 * Remove the R1 resistor from the back of the cirque trackpad. This enables I2C on the trackpad, which is required for the fingerpunch builds. It's a very small resistor, so please do so carefully.
 * Note the controller you are using. If the usb-c port is a top-mount, you'll need headers that are on the shorter side (2.0mm to 2.5mm). So, if you are using header sockets, be sure they are not the ones that are within that range (or very close). These are a good example of header sockets that should work: https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp./315-47-110-41-004000/8575758 ). If you are using a controller with a mid-mount usb-c, you can use taller headers if you like. These are quite cheap, and work great! https://www.amazon.com/Uxcell-a14081900ux0270-Single-Straight-Header/dp/B012ACSO4Y/ref=sr_1_5?crid=30WJXVFBSYL06&keywords=socket+headers&qid=1653820919&sprefix=socket+headers%2Caps%2C131&sr=8-5
 
@@ -47,6 +47,3 @@ https://github.com/sadekbaroudi/fingerpunch/blob/master/rock-on/v2/BUILDGUIDE.md
 
 Reference image 1:
 ![oledsocket](../rock-on/v2/images/oled-socket.jpg)
-
-Reference image 2:
-![STeMcell jumpers](../rock-on/v2/images/stemcell-jumpers.jpg)
