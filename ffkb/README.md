@@ -14,6 +14,18 @@ https://github.com/sadekbaroudi/fingerpunch/blob/master/rock-on/v2/BUILDGUIDE.md
 ## Other notes
 * If using a fingerpunch case, the cases are ever so slightly off at the columns towards the outside. To make it easier to assemble, put the switches into the case first, and then press the pcb into the switches. You may need to flex the PCB a bit for the outer switches. This is perfectly fine!
 
+## Custom LEDs
+
+As of the ffkb v3 and ffkb v2 ks-27 switch edition, you can now add your own individually addressible LEDs using the LED breakout section.
+
+To do so, wire as follows:
+* Din on the ffkb pcb to the data in of your first led
+* GND to GND of your first led
+* 5v to VCC of your first led (note that if the controller you are using is a 3.3v controller, this 5V pin will match your conroller)
+* Wire the last LED data out to the Dout on the ffkb pcb. This step is not necessary if you are not using the per key leds on the ffkb pcb.
+
+![oledsocket](images/custom-leds.png)
+
 ## BOM
 
 ### ffkb v2 case
