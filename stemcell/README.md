@@ -21,10 +21,10 @@ git clone {YOUR_USERNAME}git@github.com:sadekbaroudi/qmk_firmware.git
 cd qmk_firmware
 git submodule update --init --recursive
 # Checking out the stemcell repo
-git checkout -b stemcell_v1.0.1_plus origin/stemcell_v1.0.1_plus
+git checkout -b fingerpunch_develop origin/fingerpunch_develop
 git submodule update
 # Running the firmware build
-make fingerpunch/ffkb_byomcu/rgbmatrix_ec11:default
+make fingerpunch/ffkb_byomcu/rgbmatrix_ec11:default CONVERT_TO=stemcell
 
 # Build firmware will be .build/fingerpunch_ffkb_byomcu_rgbmatrix_ec11_default.uf2
 # Copy it somewhere where you can drag and drop it to flash your STeMcell
@@ -43,8 +43,8 @@ Note that you can do the below multiple times for different keyboards by replaci
 git remote add fingerpunch git@github.com:sadekbaroudi/qmk_firmware.git
 git fetch fingerpunch
 
-# Checkout the stemcell_v1.0.1_plus branch as a branch that tracks your keyboard. Let's use ffkb in this example
-git checkout -b ffkb fingerpunch/stemcell_v1.0.1_plus
+# Checkout the fingerpunch_develop branch as a branch that tracks your keyboard. Let's use ffkb in this example
+git checkout -b ffkb fingerpunch/fingerpunch_develop
 git submodule update
 
 # add your keymap, code, etc into keyboards/fingerpunch/ffkb_byomcu/keymaps/{your_keymap_dir}
@@ -57,7 +57,7 @@ git push origin ffkb
 
 # If you ever want to update from the latest fingerpunch stemcell branch in the future
 git fetch fingerpunch
-git merge fingerpunch/stemcell_v1.0.1_plus
+git merge fingerpunch/fingerpunch_develop
 git push origin ffkb
 ```
 
