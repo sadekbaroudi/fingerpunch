@@ -15,6 +15,7 @@ Note: This list is only the components that you need to buy or supply. It does n
 | XIAO family MCU               | 2           | Required                     | https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html OR https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html |
 | Kailh hotswap sockets         | 36 or 42    | Required                     | https://fingerpunch.xyz/product/kailh-hotswap-sockets/ |
 | TRRS jacks                    | 2           | Required                     | https://keeb.io/products/trrs-jack-3-5mm |
+| ximi case                     | 1           | Required                     | https://fingerpunch.xyz/product/ximi-3DP-case |
 | SK6812 mini-e LED             | 36 or 42    | Optional                     | https://fingerpunch.xyz/product/sk6812-mini-e-leds/ |
 | EC11 Rotary encoder           | 1 or 2      | Optional                     | https://fingerpunch.xyz/product/ec11-rotary-encoder/ |
 | Pimoroni Haptic Feedback      | 1 or 2      | Optional                     | https://shop.pimoroni.com/products/drv2605l-linear-actuator-haptic-breakout?variant=27859486867539 |
@@ -24,7 +25,6 @@ Note: This list is only the components that you need to buy or supply. It does n
 | Charybdis trackball pcb       | 1 or 2      | Optional, for trackball      | May be in store, or https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb |
 | 34mm trackball                | 1 or 2      | Optional, for trackball      | https://www.amazon.com/Perixx-PERIPRO-303GB-Trackball-Replacement-Perimice/dp/B08DD6GQRV?th=1 |
 | Cirque trackpad and ffc cable | 1 or 2      | Optional                     | https://fingerpunch.xyz/product/cirque-trackpad-kit/ |
-| ximi case                     | 1           | Required                     | https://fingerpunch.xyz/product/ximi-3DP-case |
 
 
 ### ximi case
