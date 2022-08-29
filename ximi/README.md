@@ -25,8 +25,18 @@ Note: This list is only the components that you need to buy or supply. It does n
 | Charybdis trackball pcb       | 1 or 2      | Optional, for trackball      | May be in store, or https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb |
 | 34mm trackball                | 1 or 2      | Optional, for trackball      | https://www.amazon.com/Perixx-PERIPRO-303GB-Trackball-Replacement-Perimice/dp/B08DD6GQRV?th=1 |
 | Cirque trackpad and ffc cable | 1 or 2      | Optional                     | https://fingerpunch.xyz/product/cirque-trackpad-kit/ |
+| 3 pin thumbwheel switch       | 1 or 2      | Optional                     | https://www.aliexpress.com/item/2255800510809110.html?spm=a2g0o.order_list.0.0.39361802noCZdH |
 
+### pre-soldered components
 
-### ximi case
+| Component                     | Quantity    | Link         |
+| -----------                   | ----------- | ------------ |
+| 1N4148W SMD Diodes            | 42          | https://lcsc.com/product-detail/Switching-Diode_GOODWORK-1N4148W_C909967.html |
+| Audio Buzzer                  | 2           | https://lcsc.com/product-detail/Buzzers_KELIKING-KLJ-1102_C201047.html |
+| FPC Clamshell connector       | 2           | https://lcsc.com/product-detail/FFC-FPC-Connectors_SHENZHEN-ATOM-TECH-FPC05012-09200_C479750.html |
+| 4.7k resistor                 | 4           | https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_TyoHM-RMC08054-7K1-N_C269746.html |
+| Shift register SN74HC595      | 2           | https://lcsc.com/product-detail/Registers_Texas-Instruments-SN74HC595DRG3_C94270.html |
+
+## ximi case
 
 TODO
