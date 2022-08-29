@@ -1,0 +1,3 @@
+spiderman: start with black filament, and change color to white at 2.0mm
+captain america: start with white filament, change to navy blue at 2.0mm, change to red at 2.8mm
+iron man: start with gold filament, change to blue at 2.0mm, change to silver/gray at 2.8mm
