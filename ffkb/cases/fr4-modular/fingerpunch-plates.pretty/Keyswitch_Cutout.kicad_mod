@@ -1,0 +1,15 @@
+(footprint "Keyswitch_Cutout" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6317780A)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.25 10.05) (layer "Eco2.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 467845d0-e864-40d0-8d2c-d7ba4d85e554)
+  )
+  (fp_text value "Keyswitch_Cutout" (at 0 -15.24) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 32f49b8a-1c88-466b-a4ff-ca062c39cb82)
+  )
+  (fp_rect (start 9.5 -9.5) (end -9.5 9.5) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 5521a2b1-eab9-46d0-bbd1-bc6f89db5d51))
+  (fp_rect (start 7 -7) (end -7 7) (layer "Edge.Cuts") (width 0.12) (fill none) (tstamp b2af3aa4-f89b-4c16-857a-5cfff47a1b68))
+)
