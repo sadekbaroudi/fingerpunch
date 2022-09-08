@@ -12,6 +12,7 @@
 ## Other notes
 * If using a fingerpunch case, the cases are ever so slightly off at the columns towards the outside. To make it easier to assemble, put the switches into the case first, and then press the pcb into the switches. You may need to flex the PCB a bit for the outer switches. This is perfectly fine!
 * If using a wireless build, you can use any 3 pin through hole on/off switch with 2.0mm spacing. I have the footprint set up for this one: https://www.digikey.com/en/products/detail/c-k/OS102011MA1QN1/1981430
+* If you are using a cirque, please note that firmware compiled with cirque support will *NOT* work if the cirque is not connected. Key presses won't register, etc. So please test with non-cirque firmware if it's not connected, or connect it if using cirque firmware.
 
 ## BOM
 * Rock On case
