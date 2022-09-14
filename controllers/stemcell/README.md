@@ -17,11 +17,11 @@ In order to make STeMcell compatible firmware from this branch, you simply need 
 Starting with no repository, here's an example of building stock ffkb firmware with rgbmatrix and ec11 encoders:
 ```bash
 # Cloning the repo
-git clone {YOUR_USERNAME}git@github.com:sadekbaroudi/qmk_firmware.git
+git clone git@github.com:sadekbaroudi/qmk_firmware.git
 cd qmk_firmware
 git submodule update --init --recursive
 # Checking out the stemcell repo
-git checkout -b fingerpunch_develop origin/fingerpunch_develop
+git checkout -b master origin/master
 git submodule update
 # Running the firmware build
 make fingerpunch/ffkb_byomcu/rgbmatrix_ec11:default CONVERT_TO=stemcell
@@ -43,8 +43,8 @@ Note that you can do the below multiple times for different keyboards by replaci
 git remote add fingerpunch git@github.com:sadekbaroudi/qmk_firmware.git
 git fetch fingerpunch
 
-# Checkout the fingerpunch_develop branch as a branch that tracks your keyboard. Let's use ffkb in this example
-git checkout -b ffkb fingerpunch/fingerpunch_develop
+# Checkout the master branch as a branch that tracks your keyboard. Let's use ffkb in this example
+git checkout -b ffkb fingerpunch/master
 git submodule update
 
 # add your keymap, code, etc into keyboards/fingerpunch/ffkb_byomcu/keymaps/{your_keymap_dir}
@@ -57,7 +57,7 @@ git push origin ffkb
 
 # If you ever want to update from the latest fingerpunch stemcell branch in the future
 git fetch fingerpunch
-git merge fingerpunch/fingerpunch_develop
+git merge fingerpunch/master
 git push origin ffkb
 ```
 
