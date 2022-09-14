@@ -21,7 +21,6 @@ git clone git@github.com:sadekbaroudi/qmk_firmware.git
 cd qmk_firmware
 git submodule update --init --recursive
 # Checking out the stemcell repo
-git checkout -b master origin/master
 git submodule update
 # Running the firmware build
 make fingerpunch/ffkb_byomcu/rgbmatrix_ec11:default CONVERT_TO=stemcell
