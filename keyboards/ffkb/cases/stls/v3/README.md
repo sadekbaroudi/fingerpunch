@@ -42,6 +42,17 @@ Print btu-4mm-ball-housing.stl
 
 Print btu-4mm-ball-housing.stl in the trackball directory
 
+### BTU housing balls (4mm)
+
+I have now tested 4 different solutions for trackballs.
+* BTUs from aliexpress spin the best, but are the loudest - https://www.aliexpress.com/item/3256802880089745.html?spm=a2g0o.order_list.0.0.31b71802lRzugJ
+* BTU housing stl with nylon spin second best, and sound is much quieter (pretty close second) - https://www.amazon.com/dp/B09CD8JPXB?psc=1&ref=ppx_yo2ov_dt_b_product_details
+* BTU housing stl with steel is third best, and a little noisier than nylon, but still quiet - https://www.amazon.com/dp/B07YKQN9TN?psc=1&ref=ppx_yo2ov_dt_b_product_details
+* BTU housing stl with PP comes in last, but not much worse than steel - https://www.amazon.com/dp/B08FG2TZ56?psc=1&ref=ppx_yo2ov_dt_b_product_details
+
+I have some ceramic ones on the way, will test those too.  https://www.aliexpress.com/item/2255799954930564.html?spm=a2g0o.order_list.0.0.31b71802lRzugJ
+
+Honestly, all good options. No major complaints. If you want the super spin, and don't mind the noise, go with the aliexpress ones. Otherwise, any of the others are just fine.
 
 ## Assembly
 
