@@ -8,57 +8,7 @@ If you are interested in learning more from the creator, you can do so here:
 
 # Firmware
 
-At the time of this writing (2022-06-06), you should use the stemcell_v1.0.1_plus branch ( https://github.com/sadekbaroudi/qmk_firmware/tree/stemcell_v1.0.1_plus ) to build your firmware for the STeMcell. Once the STeMcell is fully supported and tested for fingerpunch boards, I'll update master and will delete this branch.
-
-In order to make STeMcell compatible firmware from this branch, you simply need to run the make command you would normally run, but add "STMC=yes" to the end. This will generate a uf2 file, which you will use to flash it.
-
-## One time build
-
-Starting with no repository, here's an example of building stock ffkb firmware with rgbmatrix and ec11 encoders:
-```bash
-# Cloning the repo
-git clone git@github.com:sadekbaroudi/qmk_firmware.git
-cd qmk_firmware
-git submodule update --init --recursive
-# Checking out the stemcell repo
-git submodule update
-# Running the firmware build
-make fingerpunch/ffkb_byomcu/rgbmatrix_ec11:default CONVERT_TO=stemcell
-
-# Build firmware will be .build/fingerpunch_ffkb_byomcu_rgbmatrix_ec11_default.uf2
-# Copy it somewhere where you can drag and drop it to flash your STeMcell
-```
-
-## Managing fingerpunch code in your repository
-
-Now, you may ask yourself the question: "But how do I organize and manage my code in there?"
-
-My recommendation is to add my repo as a remote repository to yours. So, instead of cloning my repo, add it to yours using "git remote"
-
-Note that you can do the below multiple times for different keyboards by replacing the branch name ffkb with whatever you like. You will not need to repeat the "git remote add" command once you have run it the first time.
-
-```bash
-# Add the fingerpunch repo as a remote repository
-git remote add fingerpunch git@github.com:sadekbaroudi/qmk_firmware.git
-git fetch fingerpunch
-
-# Checkout the master branch as a branch that tracks your keyboard. Let's use ffkb in this example
-git checkout -b ffkb fingerpunch/master
-git submodule update
-
-# add your keymap, code, etc into keyboards/fingerpunch/ffkb_byomcu/keymaps/{your_keymap_dir}
-
-# commit your changes
-git commit -a -m "Your commit message"
-
-# push the branch to your repo
-git push origin ffkb
-
-# If you ever want to update from the latest fingerpunch stemcell branch in the future
-git fetch fingerpunch
-git merge fingerpunch/master
-git push origin ffkb
-```
+(moved to https://github.com/sadekbaroudi/fingerpunch/tree/master/firmware/README.md )
 
 # Flashing
 
