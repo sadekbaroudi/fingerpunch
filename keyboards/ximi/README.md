@@ -21,7 +21,7 @@ Note: This list is only the components that you need to buy or supply. It does n
 | Pimoroni Haptic Feedback      | 1 or 2      | Optional                     | https://shop.pimoroni.com/products/drv2605l-linear-actuator-haptic-breakout?variant=27859486867539 |
 | JST, S2B-PH-K-S LF SN         | 2           | Optional, wireless xiao only | https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626 |
 | OS102011MA1QN1 on/off         | 2           | Optional, wireless xiao only | https://www.digikey.com/en/products/detail/c-k/OS102011MA1QN1/1981430 |
-| PMW3360DM-T2QU and lens       | 1 or 2      | Optional, for trackball      | No link, but will be in fingerpunch store |
+| PMW3360DM-T2QU and lens       | 1 or 2      | Optional, for trackball      | http://fingerpunch.xyz/product/trackball-kit/ |
 | Charybdis trackball pcb       | 1 or 2      | Optional, for trackball      | May be in store, or https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb |
 | 34mm trackball                | 1 or 2      | Optional, for trackball      | https://www.amazon.com/Perixx-PERIPRO-303GB-Trackball-Replacement-Perimice/dp/B08DD6GQRV?th=1 |
 | Cirque trackpad and ffc cable | 1 or 2      | Optional                     | https://fingerpunch.xyz/product/cirque-trackpad-kit/ |
@@ -39,4 +39,19 @@ Note: This list is only the components that you need to buy or supply. It does n
 
 ## ximi case
 
-TODO
+### Trackball
+
+The listings below are per half. If you do both sides, you'll need to double this
+
+| Component                     | Quantity    | Link         | Description |
+| -----------                   | ----------- | ------------ | ----------- |
+| Charybdis sensor pcb          | 1           | https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb | To house the pmw3360 and sensor |
+| PMW3360DM-T2QU and lens       | 1           | http://fingerpunch.xyz/product/trackball-kit/ | Trackball sensor and lens |
+| M2 5mm standoffs              | 2           | TODO | This and the next three are used to connect the charybdis sensor pcb to the ximi case |
+| M2 washers                    | 2           | TODO | N/A |
+| M2 9mm screws                 | 2           | TODO | N/A |
+| M2 heat set inserts           | 2           | TODO | N/A |
+| Trackball compatible case     | 1           | TODO | Case itself |
+| 34mm trackball                | 1           | TODO | Trackball to be placed in the case |
+| 4mm ball BTU                  | 3           | TODO | BTU for the trackball to rest on and spin |
+| stripped wires                | 6           | TODO | Wires to connect the trackball sensor pcb to the ximi pcb |
