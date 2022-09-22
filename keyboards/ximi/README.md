@@ -27,6 +27,7 @@ Note: This list is only the components that you need to buy or supply. It does n
 | Cirque trackpad and ffc cable        | 1 or 2      | Optional                     | https://fingerpunch.xyz/product/cirque-trackpad-kit/ |
 | 3 pin thumbwheel switch              | 1 or 2      | Optional                     | https://www.aliexpress.com/item/2255800510809110.html?spm=a2g0o.order_list.0.0.39361802noCZdH |
 | pogo pins (3.0mm for 2.54mm headers) | 4           | Optional, but if you don't, you need to either solder the controller directly to the pcb or wire between the bottom two holes in the top center and the bottom two on the bottom side of the controller | https://www.aliexpress.com/item/3256802497611984.html?spm=a2g0o.order_list.0.0.3cb11802y2lGcs |
+| EC11 rotary encoder                  | 1 or 2      | Optional, but if you use this, you cannot use the cirque or haptic feedback. Also note that the press of the rotary encoder is not supported | https://fingerpunch.xyz/product/ec11-rotary-encoder/ |
 
 ### pre-soldered components
 
