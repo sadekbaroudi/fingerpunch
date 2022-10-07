@@ -34,4 +34,4 @@ The first thing you should do is solder the jumpers on the back of the STeMcell,
 # Testing
 
 Before soldering the controller onto your pcb, you may want to test that you soldered the jumpers correctly. If so, see this:
-https://github.com/sadekbaroudi/fingerpunch/blob/master/stemcell/JUMPER_TESTER.md
+https://github.com/sadekbaroudi/fingerpunch/blob/master/controllers/stemcell/JUMPER_TESTER.md
