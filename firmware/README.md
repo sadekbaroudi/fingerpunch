@@ -6,7 +6,7 @@ fingerpunch repo: https://github.com/sadekbaroudi/qmk_firmware
 Branches
 * master - stable, synced with qmk master, but adds the fingerpunch keyboards ( keyboards/fingerpunch/ directory )
 * develop_fingerpunch - relatively stable, synced with qmk master, but contains new fingerpunch specific changes only, no changes to qmk itself...
-* develop_qmk - synced with qmk develop, contains all the latest qmk changes only, along with the fingerpunch folder ( keyboards/fingerpunch/ directory )
+* develop_qmk - bleeding edge! synced with the qmk repository's develop branch and fingerpunch's develop_fingerpunch branch. Note that I do not update this regularly. But if you want to try a new qmk feature that isn't in master, request that I sync them, and I will gladly do so.
 
 ![branch management](images/fingerpunch-repo-branch-management.png)
 
