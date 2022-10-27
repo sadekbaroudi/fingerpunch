@@ -30,6 +30,14 @@ To do so, wire as follows:
 
 ## BOM
 
+### ffkb v3 case
+
+If using chewiedies' case:
+https://www.printables.com/model/286557-faux-fox-keyboard-ffkb-gasket-mount-case
+
+Some pics put together by Tom Barnes may be helpful:
+https://imgur.com/a/xSg2JmP
+
 ### ffkb v2 case
 
 * (a) 8 M2 heat set inserts (4mm) OR (b) 8 M2 standoffs (8mm)
