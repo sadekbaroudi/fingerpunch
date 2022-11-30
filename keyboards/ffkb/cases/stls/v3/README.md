@@ -56,12 +56,35 @@ Honestly, all good options. No major complaints. If you want the super spin, and
 
 ## Assembly
 
-1) With the BTU 4mm ball housing or the purchased BTU into the trackball housing. It will require a bit of force, but it's a press fit and should not come out.
-2) Screw the standoffs into the top body
-3) Put the fully assembled PCB into the case through the standoffs, with the switches and keycaps
-4) If using the printed BTU 4mm ball housing, place the 4mm balls into the holes. Note that this is a loose fit, so you need to place them carefully. They will readily fall out if you tilt the case
-5) Place the 34mm trackball on top. Once it is placed on top, the 4mm balls will not fall out
-6) Compress the trackball cover a bit and slide in place in the center. There are notches in the cover, and grooves in the case. It should snap into place very securely.
-7) Plug in the keyboard and test everything
-8) Screw in the bottom plate
+### Pre trackball assembly
+
+1) (if you have a trackball housing with the built in BTUs, you can skip this step) With the BTU 4mm ball housing or the purchased BTU into the trackball housing. It will require a bit of force, but it's a press fit and should not come out.
+
+### Trackball assembly
+
+First of all, you should understand how to place and remove the trackball cover. You need to squeeze the edge in the picture below, and lift to remove the cover.
+
+To place it, put the bottom side into the notch int the case, and then squeeze that same edge and push down.
+
+![trackball-cover-removal](images/trackball-cover-removal.png)
+
+You can see there are tiny notches that hold it in place
+
+![trackball-cover-notches](images/trackball-cover-notches.png)
+
+Place the BTUs or the 4mm balls into the BTUs shown below. Please note that the balls will fall out easily. So you want to place them in while keeping the trackball housing level. Then place the trackball on top. Once the trackball is in, they won't fall out unless you take the ball out.
+
+![trackball-housing-btu-placement](images/trackball-housing-btu-placement.png)
+
+Before you reassemble, make sure you remove the protective cover from the sensor, and you place the lens on top (shown below). It should only fit one way, so be sure it snaps into place.
+
+![trackball-sensor-lens](images/trackball-sensor-lens.png)
+
+
+### Post trackball assembly
+
+1) Screw the standoffs into the top body
+2) Put the fully assembled PCB into the case through the standoffs, with the switches and keycaps
+3) Plug in the keyboard and test everything
+4) Screw in the bottom plate
 
