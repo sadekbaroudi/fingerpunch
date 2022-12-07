@@ -1,0 +1,22 @@
+(footprint "Elite-C" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6337DD4E)
+  (attr through_hole)
+  (fp_text reference "U1" (at 0 1.625) (layer "F.SilkS") hide
+    (effects (font (size 1.2 1.2) (thickness 0.2032)))
+    (tstamp 9d04926f-36c0-4fcd-b151-69a639110201)
+  )
+  (fp_text value "Elite-c-cutout" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 1.2 1.2) (thickness 0.2032)))
+    (tstamp fd19abe8-36a3-4cce-a5ce-55c699b6f0b8)
+  )
+  (fp_line (start -17.78 9.59) (end 15.94 9.59) (layer "Edge.Cuts") (width 0.381) (tstamp 171aba25-259f-4370-9e70-8fd3dd3360d5))
+  (fp_line (start -17.78 -9.59) (end -17.78 9.59) (layer "Edge.Cuts") (width 0.381) (tstamp 45ada385-3ef6-4a69-828a-ae8e6c1525eb))
+  (fp_line (start 15.94 -9.59) (end -17.78 -9.59) (layer "Edge.Cuts") (width 0.381) (tstamp 5931abef-eda7-4db3-a71c-c557bd951359))
+  (fp_line (start 15.94 9.59) (end 15.94 -9.59) (layer "Edge.Cuts") (width 0.381) (tstamp 6afe8c9e-0a90-4f9c-bd33-f71ea3f3b887))
+  (model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/ArduinoProMicro.wrl"
+    (offset (xyz -13.96999979 -7.619999886 -5.841999912))
+    (scale (xyz 0.395 0.395 0.395))
+    (rotate (xyz 90 180 180))
+  )
+)
