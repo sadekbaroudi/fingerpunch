@@ -1,0 +1,7 @@
+footprint name: reddragon_mx_low_pro_3pin
+
+A 4.1mm - 2.05 halfway, but make the hole 4.2 for some extra room
+B 8.3mm - 2.05 = 6.3
+C 5.8mm - 2.05 = 3.8
+D 6mm - 2.05 - 0.7 = 4
+E 0.7mm
