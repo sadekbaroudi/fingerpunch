@@ -1,0 +1,1 @@
+Note: Took MXMountLP-1U.kicad_mod from https://github.com/Alasofia/MXMountLP.pretty

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "fingerpunch-plates")(type "KiCad")(uri "${KIPRJMOD}/fingerpunch-plates.pretty")(options "")(descr ""))
+)
