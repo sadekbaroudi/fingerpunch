@@ -36,12 +36,7 @@
 
 ## Firmware
 
-* Until the STeMcell PR gets merged into master ( https://github.com/qmk/qmk_firmware/pull/16287 ), you will need to use my branch ( https://github.com/sadekbaroudi/qmk_firmware/tree/stemcell_v1.0.1_plus )
-* Clone the repo and checkout the stemcell_v1.0.1_plus branch
-* Don't forget to do a "git submodule update" after switching to this branch, and don't forget to do a "git submodule update" if you switch back to your regular branch
-* Build any keyboard that you are using, but add STMC=yes to the make command. For example:
-       make fingerpunch/rockon/v2/cirque_ec11:default STMC=yes
-This will generate a uf2 file, not a hex, not a bin. When you reset the STeMcell controller, it will pop up a window for an external drive. At this point, drag the uf2 file onto that window. That's it!
+See: https://github.com/sadekbaroudi/qmk_firmware/blob/master/keyboards/fingerpunch/FIRMWARE.md
 
 Reference image 1:
 ![oledsocket](images/oled-socket.jpg)
