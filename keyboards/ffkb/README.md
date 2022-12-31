@@ -4,7 +4,7 @@
 
 For the ffkb, the feature support is almost identical to the Rock On. Please see the build guide and video for that keyboard, and follow the same general steps.
 
-https://github.com/sadekbaroudi/fingerpunch/blob/master/rock-on/v2/BUILDGUIDE.md
+https://github.com/sadekbaroudi/fingerpunch/blob/master/keyboards/rock-on/v2/BUILDGUIDE.md
 
 ## Pre-steps
 * If using a STeMcell, before doing anything, see https://github.com/sadekbaroudi/fingerpunch/blob/master/stemcell/README.md#stemcell-jumpers
