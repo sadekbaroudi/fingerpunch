@@ -5,7 +5,6 @@
   (property "LCSC" "C963373")
   (property "MPN " "GT-USB-7014C")
   (property "Manufacturer" "G-Switch")
-  (property "Sheetfile" "File: helios.kicad_sch")
   (property "Sheetname" "")
   (property "Substitute" "N")
   (attr smd)
