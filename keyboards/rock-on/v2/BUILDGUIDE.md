@@ -5,7 +5,7 @@
 * Rock On v2.1 with Choc switches, cirque, and per key leds: https://youtu.be/LKTFEaT3yzU
 
 ## Pre-steps
-* If using a STeMcell, before doing anything, see https://github.com/sadekbaroudi/fingerpunch/blob/master/stemcell/README.md#stemcell-jumpers
+* If using a STeMcell, before doing anything, see https://github.com/sadekbaroudi/fingerpunch/blob/master/controllers/stemcell/README.md#stemcell-jumpers
 * Remove the R1 resistor from the back of the trackpad. This enables I2C on the trackpad, which is required for the fingerpunch builds. It's a very small resistor, so please do so carefully.
 * Note the controller you are using. If the usb-c port is a top-mount, you'll need headers that are on the shorter side (2.0mm to 2.5mm). So, if you are using header sockets, be sure they are not the ones that are within that range (or very close). These are a good example of header sockets that should work: https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp./315-47-110-41-004000/8575758 ). If you are using a controller with a mid-mount usb-c, you can use taller headers if you like. These are quite cheap, and work great! https://www.amazon.com/Uxcell-a14081900ux0270-Single-Straight-Header/dp/B012ACSO4Y/ref=sr_1_5?crid=30WJXVFBSYL06&keywords=socket+headers&qid=1653820919&sprefix=socket+headers%2Caps%2C131&sr=8-5
 
