@@ -6,6 +6,11 @@ For the ffkb, the feature support is almost identical to the Rock On. Please see
 
 https://github.com/sadekbaroudi/fingerpunch/blob/master/keyboards/rock-on/v2/BUILDGUIDE.md
 
+User contributed build logs:
+
+* Discord bomtarnes#0001 - https://imgur.com/a/xSg2JmP
+* Discord Hotaro#2513 - https://imgur.com/a/I3DGrhp
+
 ## Pre-steps
 * If using a STeMcell, before doing anything, see https://github.com/sadekbaroudi/fingerpunch/blob/master/controllers/stemcell/README.md#stemcell-jumpers
 * Remove the R1 resistor from the back of the cirque trackpad. This enables I2C on the trackpad, which is required for the fingerpunch builds. It's a very small resistor, so please do so carefully.
