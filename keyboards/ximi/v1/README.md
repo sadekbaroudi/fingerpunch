@@ -1,5 +1,9 @@
 # ximi
 
+## Breakout pins
+
+![Screenshot of ximi pcb with annotated breakout pins](images/ximi_v1_breakout_markup.jpg)
+
 ## BUILDGUIDE
 
 TODO
