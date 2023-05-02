@@ -9,8 +9,8 @@ That said, there are many optional components that you may want to include, whic
 This includes:
 * Per key leds (SK6812 mini-e)
 * Haptic feedback
-* EC11 encoders
 * Trackball breakout board
+* EC11 encoders
 * Trackball sensor (to trackball breakout pcb)
 
 Please see the pictures below to see how everything is soldered.
@@ -21,12 +21,22 @@ The recommended order for soldering is:
 * Hotswap sockets
 * Trackball wires (to the main PCB, but not the trackball breakout pcb)
 	* Solder them so that the wires run along the bottom side of the pcb. Recommendation is to use different color wires so you don't mix them up when soldering to the trackball breakout pcb.
-* Pimoroni haptic feedback module
-	* The pcb should be on the bottom, with the silver cover going through the hole. If you plan to use EC11 encoders as well, after soldering the haptic feedback, put a piece of non-conductive tape on top so that it doesn't contact the bottom of the EC11
+* Pimoroni haptic feedback
+	* First we'll solder the headers. The pcb should be on the bottom.
+	* The black plastic should be on the bottom, with the leads going through. You will solder the top side.
+	* After soldering, use some flush cutters to cut in between the black plastic on the bottom side. Be careful not to let the blade cut the pcb.
+	* Use long nose pliers (or even the flush cutters) to pull the black plastic off of the leads.
+	* Lastly, cut anything sticking out of the TOP side of the pcb, since you'll need to solder the EC11 encoders on top
+	* If you plan on using EC11, do *NOT* solder the haptic feedback module yet. If you don't plan on using EC11, you can solder it now if you like.
 * TRRS
 	* Should be on the top side of the pcb with the leads going through to the bottom
 * EC11
 	* Should be on the top side of the pcb with the leads going through to the bottom
+	* Be sure to cut the leads as flush as possible after soldering if you are using a haptic feedback module
+* Finish haptic feedback module
+	* Put the haptic feedback module with the silver part facing up. It should go through the hole in the pcb.
+	* If you have an EC11 encoder in, you may want to put some non-conductive tape over the hole and EC11 leads to make sure nothing conducts
+	* Solder the haptic feedback leads. Remember that to make this as flush as possible, you should have removed the black plastic from the headers in the previous step.
 * Trackball sensor (to trackball breakout pcb)
 	* Solder the trackball sensor on the bottom of the trackball breakout pcb, with the leads going up through to the top. Be sure to align the little dot on the back of the sensor with the circle on the breakout pcb. This also has a square through hole pad.
 * Trackball wires (from the main pcb to the trackball breakout)
