@@ -6,7 +6,7 @@
 
 ## BUILDGUIDE
 
-TODO
+[Build guide](BUILDGUIDE.md)
 
 ## BOM
 
