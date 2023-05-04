@@ -50,6 +50,10 @@ The recommended order for soldering is:
 
 ![ximi bottom ec11](images/ximi_v1_bottom_ec11.jpg)
 
+![ximi haptic 01](images/ximi_v1_bottom_haptic01.jpg)
+
+![ximi haptic 02](images/ximi_v1_bottom_haptic02.jpg)
+
 ![ximi bottom in case](images/ximi_v1_bottom_in_case.jpg)
 
 ![ximi breakout wiring](images/ximi_v1_trackball_breakout_wiring.jpg)
