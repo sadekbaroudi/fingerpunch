@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 793.7007874015749 1122.5196850393702"
+   width="793.7007874015749"
+   height="1122.5196850393702"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="xi-5-bottom-trackball.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview34"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.91490603"
+     inkscape:cx="301.67033"
+     inkscape:cy="212.04363"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g30" />
+  <desc
+     id="desc2">xi-5-bottom-trackball.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs16">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path4" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path7" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path9" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path11" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g30">
+    <g
+       id="g146"
+       transform="rotate(180,443.80663,1558.1694)">
+      <path
+         d="m 260.87689,2951.2854 10e-4,35.9655 a 21.742718,21.742718 0 0 0 20.78796,16.5551 h 92.54032 a 20.04585,20.04585 0 0 1 14.79299,6.518 54.115649,54.115649 0 0 0 23.97761,15.4348 562.78888,562.78888 0 0 0 159.27939,20.0374 290.85135,290.85135 0 0 0 179.43701,-60.9517 68.031496,68.031496 0 0 0 5.33554,-4.596 79.939971,79.939971 0 0 0 14.79718,-19.2429 52.913386,52.913386 0 0 0 6.55667,-25.5088 l 0.0157,-227.5679 a 18.456462,18.456462 0 0 0 -17.80404,-18.4462 l -295.70322,-0.013 -71.96519,-12.6914 -74.58078,-27.1536 a 17.755169,17.755169 0 0 0 -22.15718,10.8006 l -32.62043,89.3643 a 44.106901,44.106901 0 0 0 -1.76745,6.1791 100.15748,100.15748 0 0 0 -0.92329,195.3164 z"
+         style="fill:none;stroke:#000000"
+         id="path18" />
+      <path
+         d="m 522.72519,3017.8201 a 4.7244095,4.7244095 0 0 0 -9.44881,0 4.7244095,4.7244095 0 0 0 9.44881,0 z"
+         style="fill:none;stroke:#000000"
+         id="path20" />
+      <path
+         d="m 769.65593,2707.0039 a 4.7244095,4.7244095 0 0 0 -9.44881,0 4.7244095,4.7244095 0 0 0 9.44881,0 z"
+         style="fill:none;stroke:#000000"
+         id="path22" />
+      <path
+         d="m 310.40589,2668.1877 a 4.72441,4.72441 0 0 0 -9.44882,0 4.72441,4.72441 0 0 0 9.44882,0 z"
+         style="fill:none;stroke:#000000"
+         id="path24" />
+      <path
+         d="m 278.96949,2986.3257 a 4.72441,4.72441 0 0 0 -9.44882,0 4.72441,4.72441 0 0 0 9.44882,0 z"
+         style="fill:none;stroke:#000000"
+         id="path26" />
+      <path
+         d="m 741.32298,2971.1557 a 4.72441,4.72441 0 0 0 -9.44882,0 4.72441,4.72441 0 0 0 9.44882,0 z"
+         style="fill:none;stroke:#000000"
+         id="path28" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 793.7007874015749 1122.5196850393702"
+   width="793.7007874015749"
+   height="1122.5196850393702"
+   version="1.1"
+   id="svg32"
+   sodipodi:docname="xi-5-bottom-no-pointing.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview34"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.91490603"
+     inkscape:cx="461.24956"
+     inkscape:cy="326.80952"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g30" />
+  <desc
+     id="desc2">xi-5-bottom-no-pointing.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs16">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path4" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path7" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path9" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path11" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g30">
+    <g
+       id="g146"
+       transform="rotate(180,870.2082,1570.689)">
+      <path
+         d="m 1141.902,2668.1877 a 4.72445,4.72445 0 0 0 -9.4489,0 4.72445,4.72445 0 0 0 9.4489,0 z"
+         style="fill:none;stroke:#000000"
+         id="path18" />
+      <path
+         d="m 1601.152,2707.0039 a 4.7244095,4.7244095 0 0 0 -9.4488,0 4.7244095,4.7244095 0 0 0 9.4488,0 z"
+         style="fill:none;stroke:#000000"
+         id="path20" />
+      <path
+         d="m 1354.2213,3017.8201 a 4.72445,4.72445 0 0 0 -9.4489,0 4.72445,4.72445 0 0 0 9.4489,0 z"
+         style="fill:none;stroke:#000000"
+         id="path22" />
+      <path
+         d="m 1110.4656,2986.3257 a 4.72445,4.72445 0 0 0 -9.4489,0 4.72445,4.72445 0 0 0 9.4489,0 z"
+         style="fill:none;stroke:#000000"
+         id="path24" />
+      <path
+         d="m 1572.819,2971.1557 a 4.724409,4.724409 0 0 0 -9.4488,0 4.724409,4.724409 0 0 0 9.4488,0 z"
+         style="fill:none;stroke:#000000"
+         id="path26" />
+      <path
+         d="m 1224.4221,2676.7786 -74.5808,-27.1536 a 17.755169,17.755169 0 0 0 -22.1572,10.8006 l -32.6204,89.3643 a 44.106901,44.106901 0 0 0 -2.6971,15.1885 l 0.01,222.2725 a 21.742718,21.742718 0 0 0 20.7879,16.5551 h 92.5404 a 20.04585,20.04585 0 0 1 14.7929,6.518 54.115649,54.115649 0 0 0 23.9777,15.4348 562.78888,562.78888 0 0 0 159.2793,20.0374 290.85135,290.85135 0 0 0 179.4371,-60.9517 68.031496,68.031496 0 0 0 5.3355,-4.596 79.939971,79.939971 0 0 0 14.7972,-19.2429 52.913386,52.913386 0 0 0 6.5566,-25.5088 l 0.016,-227.5679 a 18.456462,18.456462 0 0 0 -17.804,-18.4462 l -295.7032,-0.013 z"
+         style="fill:none;stroke:#000000"
+         id="path28" />
+    </g>
+  </g>
+</svg>
