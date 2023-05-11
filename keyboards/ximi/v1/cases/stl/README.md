@@ -27,6 +27,10 @@ Similar to the body, you can mirror the bottom plate to get the right side
 
 ## trackball covers
 
-`xi-trackball-cover-{slim|wide|wider}.stl`
+`xi-trackball-cover-{slimmer|slim|wide|wider}.stl`
 
-These are 3 versions of the trackball cover with slightly wider and wider bottom edges. This is to accommodate the fact that different printers will produce different results. Hopefully one of these should produce a trackball cover that has a nice pressure fit into the trackball case. In my current printer, the "wider" stl works best.
+These are 4 versions of the trackball cover with slightly wider and wider bottom edges. This is to accommodate the fact that different printers will produce different results. Hopefully one of these should produce a trackball cover that has a nice pressure fit into the trackball case.
+
+Personal experience and feedback:
+* In my current FDM printer (Snapmaker A350T), the "wider" stl works best.
+* Printing via JLCPCB MJF, the slimmer option should work best. I received feedback that the slim one worked, but required a little bit of filing at the bottom.
