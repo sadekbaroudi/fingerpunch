@@ -5,13 +5,14 @@ There are a lot of files in here, so allow me to explain the name format!
 ## body
 
 The file name format for the body is as follows: 
-`xi-{5|6}-{mx|choc}-{tr|c|trth|np}-{ec|ne}-{3wt|_}-{left|right}.stl`
+`xi-{5|6}-{mx|choc}-{tr|c|trth|np}-{ec|ne}-{3wt|_}-{disp}-{left|right}.stl`
 
 * `5|6` - This is 5 or 6 column
 * `mx|choc` - The heights are adjusted such that it's suitable for MX or choc switches 
 * `tr|c|trth|np` - trackball, cirque, thumb trackball (trth), or no pointing device 
 * `ec|ne` - ec11 or no encoders 
 * `3wt|_` - three way thumb switches or none (I stopped adding the ones that don't have the cutouts since the 3 way thumb switches are pre-soldered on the pcb for current pcbs) 
+* `disp` - mounting for waveshare 1.47inch display (sku 22224)
 * `left|right` - left or right half. There may not be a right half in all cases, simply because you can mirror the left stl. In some cases, like the cirque, you cannot mirror the stl since the mount for the cirque won't work that way. You need to actually print the right half in that case, as provided here. 
 
 ## bottom plate
