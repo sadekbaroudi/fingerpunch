@@ -12,6 +12,7 @@ This includes:
 * Trackball breakout board
 * EC11 encoders
 * Trackball sensor (to trackball breakout pcb)
+* Cirque Trackpad
 
 Please see the pictures below to see how everything is soldered.
 
@@ -41,6 +42,10 @@ The recommended order for soldering is:
 	* Solder the trackball sensor on the bottom of the trackball breakout pcb, with the leads going up through to the top. Be sure to align the little dot on the back of the sensor with the circle on the breakout pcb. This also has a square through hole pad.
 * Trackball wires (from the main pcb to the trackball breakout)
 	* Run the wires through the bottom of the trackball breakout and solder from the top. Then cut the wires flush from the top. They should be in the opposite order from the main pcb. See the pictures below to make sure you do this correctly. 
+* Cirque trackpad connection
+	* Please note that you need to remove the R1 resistor from the back of the cirque trackpad. There is an example of me doing it for the a rock on build in this video: https://www.youtube.com/watch?v=LKTFEaT3yzU&t=1686s
+	* Also, you may need to remove the overlay. It's a known issue on some cirques. I'd recommend first testing before removing it. If you're seeing erratic movements or inconsistency, it's likely this. Video of this process is here: https://www.youtube.com/watch?v=_9lTZ1vEtGA&t=2s&ab_channel=fingerpunch
+	* You can make your own replacement overlay by cutting some vinyl stickers, and placing it on top. Or you can buy some pre-cut ones here: https://www.etsy.com/listing/1317302992/cirque-trackpad-cover-35mm
 
 ## Pictures
 
