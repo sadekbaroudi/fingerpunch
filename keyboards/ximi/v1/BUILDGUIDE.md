@@ -6,6 +6,8 @@ The ximi v1 comes with most of the required components pre-soldered. The only re
 
 That said, there are many optional components that you may want to include, which also need to be soldered.
 
+Note: You may see some blue through hole resistors in some of the pictures below. Those are *not* needed.
+
 This includes:
 * Per key leds (SK6812 mini-e)
 * Haptic feedback
