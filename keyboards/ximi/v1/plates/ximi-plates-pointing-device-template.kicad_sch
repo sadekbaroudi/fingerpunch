@@ -593,10 +593,6 @@
   )
 
 
-  (wire (pts (xy 168.91 323.85) (xy 175.26 323.85))
-    (stroke (width 0) (type default))
-    (uuid 17c39424-1c10-4ecf-8e13-ee3e4cfca6f8)
-  )
   (polyline (pts (xy 223.52 339.09) (xy 223.52 283.21))
     (stroke (width 0) (type default))
     (uuid 41e362e1-f999-4b83-9641-448052b4ebe8)
@@ -608,11 +604,6 @@
   (polyline (pts (xy 101.6 339.09) (xy 223.52 339.09))
     (stroke (width 0) (type default))
     (uuid 7e543aee-2c59-45a2-b035-137f47666ff2)
-  )
-
-  (wire (pts (xy 168.91 318.77) (xy 175.26 318.77))
-    (stroke (width 0) (type default))
-    (uuid 8f63c169-a884-4669-8210-f5b2596cd80a)
   )
   (polyline (pts (xy 101.6 283.21) (xy 101.6 339.09))
     (stroke (width 0) (type default))
@@ -632,52 +623,19 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0dade29c-aecc-4c97-9e20-132ddba641ee)
   )
-  (text "Right" (at 217.17 45.72 0)
-    (effects (font (size 5 5)) (justify left bottom))
-    (uuid 24248ca6-0ea9-4394-b83a-981cc23430f9)
-  )
   (text "Physical reset switch" (at 107.95 68.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 636404ce-de6c-4052-9e31-1223fc69433c)
-  )
-  (text "Physical reset switch" (at 250.19 67.31 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 94bfa36c-401b-4363-86f5-7c41b9fe6efb)
-  )
-  (text "Left" (at 72.39 45.72 0)
-    (effects (font (size 5 5)) (justify left bottom))
-    (uuid a5c01d80-d69d-4525-ac1d-bbdd807f9cb7)
   )
   (text "TRRS or USB-C split comms" (at 148.59 232.41 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid be9519a5-57cb-406c-92b0-68e5e3d8c624)
   )
 
-  (global_label "ENC_B_R" (shape input) (at 175.26 318.77 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2ce64b30-5206-4ff5-9011-10493e25e7d1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 185.809 318.6906 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "ENC_A_R" (shape input) (at 175.26 323.85 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3e957086-8ebe-4281-869c-8db0d4bd1a73)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 185.6275 323.7706 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "col2_L" (shape input) (at 153.67 304.8 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 40ffcf43-8676-4ace-9bdb-371af15cccca)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 145.2377 304.8794 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "col2_R" (shape input) (at 153.67 323.85 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 55635eec-9278-41a9-bc4e-af108e116a73)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.9958 323.7706 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -686,13 +644,6 @@
     (uuid 684b317f-96b2-4563-94b7-a9f9dbce19d3)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 185.3856 304.7206 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "ENC_ROW_R" (shape input) (at 153.67 318.77 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8eaa18c2-5320-458b-982f-1ed8bd4b1ebd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 140.3391 318.6906 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "ENC_ROW_L" (shape input) (at 153.67 299.72 180) (fields_autoplaced)
@@ -728,7 +679,7 @@
     (pin "1" (uuid d9d563e7-1a6a-4799-a2f3-85a99db9a544))
     (pin "2" (uuid ff24373c-2038-4f59-9f8c-0503525a62b7))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW2") (unit 1)
         )
@@ -754,7 +705,7 @@
     (pin "1" (uuid 952eb6d2-2954-4111-a5a8-f0a4d5f90c38))
     (pin "2" (uuid b80eaa86-2010-44e1-a77e-325d4cca16f7))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW3") (unit 1)
         )
@@ -780,7 +731,7 @@
     (pin "1" (uuid 00dcf642-2107-4639-8754-6e915c1b9aa8))
     (pin "2" (uuid 33f5878c-5246-435a-be5b-77cb5fb58e5e))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW4") (unit 1)
         )
@@ -806,7 +757,7 @@
     (pin "1" (uuid ceded776-8101-4dc2-bf0c-c68067368bff))
     (pin "2" (uuid d8735775-66e9-48f1-ad25-a0cb7a5ab2e7))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW5") (unit 1)
         )
@@ -832,7 +783,7 @@
     (pin "1" (uuid d2312d0b-83c5-4de4-8a71-5555bab4aa14))
     (pin "2" (uuid a02abe2f-a70b-4da2-9984-7202e6cddfd0))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW6") (unit 1)
         )
@@ -858,7 +809,7 @@
     (pin "1" (uuid 61cedf16-9450-4fff-8022-dc881e9dd40d))
     (pin "2" (uuid a5c72095-2fa8-45cf-ba49-f89bd3f05498))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW19") (unit 1)
         )
@@ -884,7 +835,7 @@
     (pin "1" (uuid fd6c9792-9fbd-461e-8c10-40765aa8fc1a))
     (pin "2" (uuid 4dc172c9-8d82-488c-a618-cabc47686492))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW8") (unit 1)
         )
@@ -910,7 +861,7 @@
     (pin "1" (uuid 83f398ab-4539-47c5-b26a-93ca54378770))
     (pin "2" (uuid a218eb0a-a093-4d2d-bf68-3e0c486b09f2))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW9") (unit 1)
         )
@@ -936,7 +887,7 @@
     (pin "1" (uuid 868912b0-f8d9-4aad-90dc-8a4849207863))
     (pin "2" (uuid 8a505398-540e-46de-a991-856521182072))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW10") (unit 1)
         )
@@ -962,7 +913,7 @@
     (pin "1" (uuid fa42807d-0c15-4036-8b55-a76fa1c09146))
     (pin "2" (uuid 0e89514b-5a61-4aea-a61a-056b3205af2f))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW11") (unit 1)
         )
@@ -988,7 +939,7 @@
     (pin "1" (uuid 1cde62e2-a133-4b92-8538-a7292a812f08))
     (pin "2" (uuid ae91ad65-c9c5-4483-91e5-d32d6ba8a04c))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW12") (unit 1)
         )
@@ -1014,7 +965,7 @@
     (pin "1" (uuid debe5b34-8d5e-4674-b56d-60c671acdebd))
     (pin "2" (uuid 07fa7ddb-4cb4-434a-b00c-5858d217f21d))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW21") (unit 1)
         )
@@ -1040,7 +991,7 @@
     (pin "1" (uuid 58901d3c-983a-4aaa-aaf6-d3db52d0efa8))
     (pin "2" (uuid 250d4f0d-e87a-4d97-a116-bcd7cc7a08cb))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW14") (unit 1)
         )
@@ -1066,7 +1017,7 @@
     (pin "1" (uuid 5a780693-61fc-4761-9222-04a74a231d69))
     (pin "2" (uuid ece57487-be6d-4560-914c-432dd6fb27a0))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW15") (unit 1)
         )
@@ -1092,7 +1043,7 @@
     (pin "1" (uuid 5d0bfb87-2966-4511-a2f2-200a11366799))
     (pin "2" (uuid 9e949464-7ffd-49d4-a5a5-7bdcdb22ae80))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW16") (unit 1)
         )
@@ -1118,7 +1069,7 @@
     (pin "1" (uuid d03ca063-dbcc-4fbd-a2b8-a81cb6f5133e))
     (pin "2" (uuid 8045931b-15d4-4958-aba7-d39303dd1058))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW17") (unit 1)
         )
@@ -1144,7 +1095,7 @@
     (pin "1" (uuid 1bd7038c-ccc5-4dc1-851d-aaabf77206fe))
     (pin "2" (uuid ff41b5c0-eafe-4fa6-887b-852f5806da3a))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW18") (unit 1)
         )
@@ -1170,7 +1121,7 @@
     (pin "1" (uuid d166c03e-cd4b-4a5b-bb70-a7218f31b575))
     (pin "2" (uuid 837f1da1-c297-4591-bc6e-b2da5f018fbd))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW20") (unit 1)
         )
@@ -1196,7 +1147,7 @@
     (pin "1" (uuid 33f9003b-cbe2-4dc7-9288-a0db021e45b1))
     (pin "2" (uuid 0608391e-b202-4612-a73b-a670d65cd261))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW1") (unit 1)
         )
@@ -1222,7 +1173,7 @@
     (pin "1" (uuid 5013c67f-06e0-4f80-aed9-bc6aab34c225))
     (pin "2" (uuid 453f9340-906d-4aa8-b05c-f55f68566bd0))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW7") (unit 1)
         )
@@ -1248,84 +1199,9 @@
     (pin "1" (uuid 39ba231d-e017-4a0f-a40c-d7bc6a7d019c))
     (pin "2" (uuid 6e0b4302-d46b-471c-b060-79e2c3c8a5dd))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 271.78 265.684 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 076ef2bf-2068-41c8-b96e-60c9884501b7)
-    (property "Reference" "H10" (at 274.32 264.7755 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Breakaway Tabs" (at 274.32 267.5506 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch:Breakaway_Tabs" (at 271.78 265.684 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 271.78 265.684 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 168.91 321.31 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 08756abf-cfd2-49e8-bf3a-04b0a9552fe3)
-    (property "Reference" "#PWR0128" (at 175.26 321.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 173.3042 321.183 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 168.91 321.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 168.91 321.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0b7c991c-c1c8-4424-917a-aebac2484daf))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "#PWR0128") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 193.04 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 12fc0fd8-c5ed-4eb2-90e9-b8b81e4e6c61)
-    (property "Reference" "SW28" (at 193.04 157.861 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 193.04 160.1724 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 193.04 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.04 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6e49cc73-c013-4773-8bff-5c610877e590))
-    (pin "2" (uuid 16d3f387-0814-467d-93ca-f54c4e8d42e4))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW28") (unit 1)
         )
       )
     )
@@ -1351,101 +1227,9 @@
     (pin "3" (uuid 63bf2fd5-29f4-4360-bbe2-306c3121651b))
     (pin "4" (uuid b8c650c7-b41b-4453-bf62-80225c56bcb7))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "J7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 222.25 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1c41c46e-8d62-4c96-bdc4-2da9a775357c)
-    (property "Reference" "J1" (at 222.25 60.96 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USB_C_Receptacle_USB2.0" (at 222.25 63.5 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 226.06 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 226.06 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C165948" (at 222.25 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A1" (uuid 6c5599c2-8042-4e22-8c1b-40748e303a29))
-    (pin "A12" (uuid 950439c5-613c-4f0d-97cb-26e5d936126c))
-    (pin "A4" (uuid 3e6bf67f-6cee-4c87-83bb-34cf3a02c3c5))
-    (pin "A5" (uuid 1dd83f84-e3de-47d8-b01e-3e1eaea46af3))
-    (pin "A6" (uuid 32fc91aa-cecb-45a8-a023-c80606b951b7))
-    (pin "A7" (uuid da481cc6-2dc8-4308-8de2-9d79d2ff7166))
-    (pin "A8" (uuid 6ba14a7b-0ffe-4f37-9f51-b1d9347a6e9b))
-    (pin "A9" (uuid b38c8d69-f55a-475f-9f3e-815f6387a315))
-    (pin "B1" (uuid d99f353a-0a15-4afe-823a-fefac75520d6))
-    (pin "B12" (uuid ebd7c2dc-f3ec-43bb-a31f-7b971a0f4ff2))
-    (pin "B4" (uuid e47104fb-c20a-4283-8ff5-446e4645fdba))
-    (pin "B5" (uuid ee24d873-65b7-4ed7-bfb8-f53b03e63f07))
-    (pin "B6" (uuid 2a88179d-9a06-4958-9b51-4f113a3f42e4))
-    (pin "B7" (uuid 469437bf-de2b-459b-90bc-aff83a790d15))
-    (pin "B8" (uuid dc4b24e6-730b-4ed1-a50c-f9bc727003c6))
-    (pin "B9" (uuid 4971d600-82ca-433c-ac5f-21bc813ecef9))
-    (pin "S1" (uuid c13d0a14-6fae-498c-95d2-739e0c5b723f))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 271.78 272.034 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1c7d349c-d2da-4ef6-a8a5-45ed3856b2b6)
-    (property "Reference" "H11" (at 274.32 271.1255 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Breakaway Tabs" (at 274.32 273.9006 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch:Breakaway_Tabs" (at 271.78 272.034 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 271.78 272.034 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 322.453 240.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 20a68f0c-2e92-4af9-b975-e0c6437bcdb5)
-    (property "Reference" "H6" (at 324.993 239.1215 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 324.993 241.8966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch-plates:MountingHole_2.2mm_M2_DIN965_Pad" (at 322.453 240.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 322.453 240.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H6") (unit 1)
         )
       )
     )
@@ -1472,111 +1256,9 @@
     (pin "1" (uuid 05bbbd00-6b73-4446-a35b-5932359bafa8))
     (pin "2" (uuid 8a9dff4a-4503-4bd2-911b-94b795356d0d))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW50") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 298.323 247.015 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3df3b87f-14c7-43c2-8743-cc37e3000793)
-    (property "Reference" "H7" (at 300.863 246.1065 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 300.863 248.8816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch-plates:MountingHole_2.2mm_M2_DIN965_Pad" (at 298.323 247.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 298.323 247.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 275.59 191.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4288ff55-7d2c-4177-af61-7f5906e6d36d)
-    (property "Reference" "SW39" (at 275.59 184.531 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 275.59 186.8424 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 275.59 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 275.59 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1c526da6-2876-4619-b7bb-649e46bd1ba6))
-    (pin "2" (uuid 88cb0236-6530-4bd6-88aa-211b11ca6274))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW39") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 226.06 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4a3cd9a1-fa55-4cd4-a461-bdb42a47c1fe)
-    (property "Reference" "SW30" (at 226.06 157.861 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 226.06 160.1724 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 226.06 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 226.06 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cb208a5f-cf11-47a1-b12e-edc5dbb40dd8))
-    (pin "2" (uuid 8835f981-dd77-4c60-8311-4d92a7d66dfc))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW30") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 275.59 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4d0d740f-09ea-4804-8611-9ad362b9798b)
-    (property "Reference" "SW33" (at 275.59 157.861 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 275.59 160.1724 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 275.59 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 275.59 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a09f687c-144b-48b1-88ae-14ada5f16dcf))
-    (pin "2" (uuid d870258e-28ee-4507-b90e-6081ca87e290))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW33") (unit 1)
         )
       )
     )
@@ -1598,109 +1280,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 295.91 278.384 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5108a850-5478-4af0-b258-0c339a1fa2d8)
-    (property "Reference" "H16" (at 298.45 277.4755 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Breakaway Tabs" (at 298.45 280.2506 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch:Breakaway_Tabs" (at 295.91 278.384 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 295.91 278.384 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 292.1 191.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 537a5923-1046-460c-92e4-4293d625997a)
-    (property "Reference" "SW42" (at 292.1 184.531 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 292.1 186.8424 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 292.1 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 292.1 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a99e9a11-f995-4ae9-a06a-d80281b957e3))
-    (pin "2" (uuid dcfb6418-9e6c-48fd-be48-2af7d00c10c9))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW42") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 298.323 240.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 57e2c63a-2c38-4057-806d-22ad1886ceca)
-    (property "Reference" "H5" (at 300.863 239.1215 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 300.863 241.8966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch-plates:MountingHole_2.2mm_M2_DIN965_Pad" (at 298.323 240.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 298.323 240.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 242.57 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5c26b537-9318-4acc-b58a-5921f5f9c440)
-    (property "Reference" "SW31" (at 242.57 157.861 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 242.57 160.1724 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 242.57 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 242.57 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f06016e7-f832-4839-897f-1e1709bf6878))
-    (pin "2" (uuid 7dbdd28b-96fc-4834-9c5e-dc194cb180a5))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW31") (unit 1)
         )
       )
     )
@@ -1742,7 +1324,7 @@
     (pin "B9" (uuid a9109853-56c3-422d-8fad-20334cfc4866))
     (pin "S1" (uuid b4e9393b-679e-4729-b7f3-75589796563c))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "J2") (unit 1)
         )
@@ -1750,237 +1332,25 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 292.1 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6a86b096-d952-46a8-94ff-ed37f5aff1b1)
-    (property "Reference" "SW41" (at 292.1 157.861 0)
-      (effects (font (size 1.27 1.27)))
+  (symbol (lib_id "Mechanical:MountingHole") (at 76.2 231.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7c918aa9-9992-4942-af6a-d94432eac25d)
+    (property "Reference" "H17" (at 78.74 230.2315 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SW_Push" (at 292.1 160.1724 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "fp-modular-pointing-mount" (at 78.74 233.0066 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 292.1 160.02 0)
+    (property "Footprint" "fingerpunch-plates:fp-trackball-pcb-mount" (at 76.2 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 292.1 160.02 0)
+    (property "Datasheet" "~" (at 76.2 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53faa29c-d57f-46fd-9ac1-3db5b38b8156))
-    (pin "2" (uuid ff33a69f-6fe1-4a55-875a-45ca0f19d514))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW41") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 226.06 191.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6b84ece8-d4da-4099-9aa9-8e3285a013b7)
-    (property "Reference" "SW36" (at 226.06 184.531 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 226.06 186.8424 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 226.06 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 226.06 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6b549871-7c55-489f-9bbc-9f4ad10b30d9))
-    (pin "2" (uuid 307de749-6195-4f92-884e-cdef28c8766d))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW36") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 292.1 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6f7e7a0e-34f7-4914-b68f-7ac954364957)
-    (property "Reference" "SW40" (at 292.1 131.191 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 292.1 133.5024 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 292.1 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 292.1 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ffb38a63-3ba6-4643-bb84-408f3919c640))
-    (pin "2" (uuid b1761614-16d2-4d34-b889-c75d209319d7))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW40") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "keebio:TRRS") (at 185.42 251.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7714d039-e804-49e1-a549-37bb2150b227)
-    (property "Reference" "J11" (at 184.3278 243.205 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AudioJack4dpb" (at 184.4802 254 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:TRRS-PJ-320A" (at 189.23 251.46 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "~" (at 189.23 251.46 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid 9e5b5d5c-173e-4a46-a113-4100114e9aa0))
-    (pin "2" (uuid b0394a41-fd64-45a7-8d6e-3109d76934f2))
-    (pin "3" (uuid 1ed28d47-cecc-4901-a6a5-613d7140dbe2))
-    (pin "4" (uuid 2ab4ca5a-f41c-43c7-94af-e558654368c0))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "J11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 242.57 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7b6433e1-525a-4ead-9556-b8220662e581)
-    (property "Reference" "SW25" (at 242.57 131.191 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 242.57 133.5024 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 242.57 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 242.57 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid be13fd1f-82c7-4102-9b3f-7c9f735bbc62))
-    (pin "2" (uuid 480fcc16-2a02-4636-aceb-7cf48645328c))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 209.55 191.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 89181893-83cc-4ef8-885f-ccefd775a89a)
-    (property "Reference" "SW35" (at 209.55 184.531 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 209.55 186.8424 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 209.55 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 209.55 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3f485fd5-601b-473f-8559-237becc0a431))
-    (pin "2" (uuid d3550957-6abb-4a11-8e12-8963661f80d1))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW35") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 275.59 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8a446c6a-a101-4a19-bd87-a5ded431b96c)
-    (property "Reference" "SW27" (at 275.59 131.191 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 275.59 133.5024 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 275.59 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 275.59 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 48b3c1dd-a87e-405e-a44f-e6f96ca2e2dd))
-    (pin "2" (uuid e9f6384b-07ba-44c2-a480-6130f9e2d48e))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 259.08 191.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8d1f6be7-7279-4bb7-b592-a0274bc841c2)
-    (property "Reference" "SW38" (at 259.08 184.531 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 259.08 186.8424 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 259.08 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 259.08 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d57127d5-13c1-4549-a417-e8b2e2c302de))
-    (pin "2" (uuid 414ccc53-2dab-44ea-8654-77f71c48b470))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW38") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 193.04 191.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8f2f4855-74d5-41e0-b258-bc022156d72d)
-    (property "Reference" "SW34" (at 193.04 184.531 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 193.04 186.8424 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 193.04 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.04 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e358017c-8184-4d7e-abe2-8747d6bedca3))
-    (pin "2" (uuid 72fdab05-4cdc-4899-81eb-8cfe710acbd6))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW34") (unit 1)
+          (reference "H17") (unit 1)
         )
       )
     )
@@ -2002,319 +1372,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 295.91 265.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9204ef8b-ebda-4e21-83b2-d093d08e80a4)
-    (property "Reference" "H14" (at 298.45 264.5215 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Breakaway Tabs" (at 298.45 267.2966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch:Breakaway_Tabs" (at 295.91 265.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 295.91 265.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ffkb-rescue:RotaryEncoder_Switch-Device") (at 161.29 321.31 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 979c89da-22eb-4fe0-97a0-512460fff7bc)
-    (property "Reference" "SW48" (at 161.29 311.9882 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "RotaryEncoder_Switch" (at 161.29 314.2996 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:RotaryEncoder_EC11-no-legs" (at 165.1 325.374 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 161.29 327.914 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid 71f2e601-ac09-4765-9de5-403d309d97b5))
-    (pin "B" (uuid 9f4453ff-6d96-4422-b12c-c304b6542648))
-    (pin "C" (uuid 064eed6e-92c5-4480-8916-82836825de67))
-    (pin "S1" (uuid 7a3e2e5e-3ef5-4234-91e4-436c78aade02))
-    (pin "S2" (uuid ed2403e0-efca-40f0-be24-dd3c782e9155))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW48") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 271.78 259.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9c8c11d8-8399-4371-a552-3f57f17f9b3e)
-    (property "Reference" "H9" (at 274.32 258.1715 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Breakaway Tabs" (at 274.32 260.9466 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch:Breakaway_Tabs" (at 271.78 259.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 271.78 259.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 259.08 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9e640e48-5d9d-4dad-948a-4cce55c7832a)
-    (property "Reference" "SW26" (at 259.08 131.191 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 259.08 133.5024 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 259.08 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 259.08 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 329d1b24-5051-4e62-9110-464894e6e90b))
-    (pin "2" (uuid ac74cffb-5101-45f5-94c1-16d31f5714c3))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW26") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 193.04 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9e77c64a-e307-420d-82a4-408c7db21080)
-    (property "Reference" "SW22" (at 193.04 131.191 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 193.04 133.5024 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 193.04 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.04 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6ee20968-8746-477b-90e4-02411f12708a))
-    (pin "2" (uuid 4116e3d0-2690-4a68-81a3-97976b5b71e0))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 209.55 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aad12eef-b777-4a60-9a7f-4c22743ea456)
-    (property "Reference" "SW29" (at 209.55 157.861 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 209.55 160.1724 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 209.55 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 209.55 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7685bb40-b194-4360-bbf0-60216d3c0892))
-    (pin "2" (uuid 8847ed34-ab62-49da-9a42-9afd5bf8a197))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 209.55 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ab5bc37b-0b0a-46bc-a0c1-43ba441f5a0d)
-    (property "Reference" "SW23" (at 209.55 131.191 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 209.55 133.5024 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 209.55 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 209.55 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4ef677c4-3ca0-4300-9d92-b544e6effa8f))
-    (pin "2" (uuid b961f505-384c-493e-bed7-dbda72230567))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 259.08 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid afa843c3-9706-47c7-86d1-a3b3066f836a)
-    (property "Reference" "SW32" (at 259.08 157.861 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 259.08 160.1724 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 259.08 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 259.08 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fdc86019-d87a-4199-a5bd-5c14ea91bf8f))
-    (pin "2" (uuid 66a7612c-cf5e-4d04-904c-a61b2f4bc351))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 255.27 74.93 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b0d1ea60-ccbb-4dc1-a23b-56b581c9f02a)
-    (property "Reference" "SW49" (at 248.031 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 250.3424 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:MountingHole_2.5mm" (at 250.19 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 250.19 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C115351" (at 255.27 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1d6f3ccb-e663-4e3c-8885-26e373d85ffc))
-    (pin "2" (uuid d1c59d9e-007a-4f45-81f8-55b920308c77))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW49") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 271.78 278.638 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b2fcc79a-db1f-4688-be2b-7c1638ddbd6a)
-    (property "Reference" "H12" (at 274.32 277.7295 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Breakaway Tabs" (at 274.32 280.5046 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch:Breakaway_Tabs" (at 271.78 278.638 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 271.78 278.638 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 242.57 191.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bfbf6f01-518e-40b1-9e66-f64417f74010)
-    (property "Reference" "SW37" (at 242.57 184.531 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 242.57 186.8424 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 242.57 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 242.57 186.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3917be5d-104f-4831-8085-d1c46044a5a5))
-    (pin "2" (uuid 383b4f1e-7e28-4388-ac2c-8bd3043261b8))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW37") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 295.91 271.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c53b8b91-c20a-4310-9a80-1bbf511eaffb)
-    (property "Reference" "H15" (at 298.45 270.8715 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Breakaway Tabs" (at 298.45 273.6466 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch:Breakaway_Tabs" (at 295.91 271.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 295.91 271.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H15") (unit 1)
         )
       )
     )
@@ -2337,7 +1397,7 @@
     )
     (pin "1" (uuid fe8d9129-8c63-43fd-bf69-7dc230dbbb49))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "#PWR0127") (unit 1)
         )
@@ -2361,7 +1421,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "H1") (unit 1)
         )
@@ -2385,83 +1445,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 295.91 258.826 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d5525501-8bc0-43ee-89c1-ec4c38dafd46)
-    (property "Reference" "H13" (at 298.45 257.9175 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Breakaway Tabs" (at 298.45 260.6926 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch:Breakaway_Tabs" (at 295.91 258.826 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 295.91 258.826 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_Push") (at 226.06 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d975e6f5-055a-4737-9f82-f9760735c6c7)
-    (property "Reference" "SW24" (at 226.06 131.191 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_Push" (at 226.06 133.5024 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "fingerpunch-plates:switch-cutout-mx" (at 226.06 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 226.06 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ec05af44-5ed5-4efd-9b78-2df9b08c77be))
-    (pin "2" (uuid 9dbcbd5e-2698-4f78-a2a6-196b30c2fe15))
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "SW24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 322.453 247.015 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e3759177-c8a9-479d-833a-2655dcc4ba6b)
-    (property "Reference" "H8" (at 324.993 246.1065 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 324.993 248.8816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "fingerpunch-plates:MountingHole_2.2mm_M2_DIN965_Pad" (at 322.453 247.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 322.453 247.015 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ximi-plates-template"
-        (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
-          (reference "H8") (unit 1)
         )
       )
     )
@@ -2488,7 +1474,7 @@
     (pin "S1" (uuid c1ea635c-f054-4652-8782-1b4249c4ea2c))
     (pin "S2" (uuid 1c98553b-d3e8-42c5-8b6c-db16e736ebe5))
     (instances
-      (project "ximi-plates-template"
+      (project "ximi-plates-trackball"
         (path "/61fe293f-6808-4b7f-9340-9aaac7054a97"
           (reference "SW47") (unit 1)
         )
