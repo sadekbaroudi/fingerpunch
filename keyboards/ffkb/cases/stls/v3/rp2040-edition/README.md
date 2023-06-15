@@ -14,17 +14,9 @@ To build this style case, you'll need:
 * 9x - 5mm M2 screws
 * 9x - M2 4mm heat set inserts
 
-# renders
+# pictures
 
-## choc trackball case with ec11 cutouts
-
-![render ffkb choc trackball case](images/ff-rp-u3-choc-6-tr-ec.png)
-
-## choc trackball case with evq cutouts
-
-![render ffkb choc trackball case with evq 01](images/ff-rp-u3-choc-6-tr-ev-01.png)
-
-![render ffkb choc trackball case with evq 02](images/ff-rp-u3-choc-6-tr-ev-02.png)
+## 6 column
 
 ## mx trackball case with ec11 cutouts
 
@@ -33,3 +25,25 @@ To build this style case, you'll need:
 ![render ffkb mx trackball case 02](images/ff-rp-u3-mx-6-tr-ec-02.png)
 
 ![render ffkb mx trackball case 03](images/ff-rp-u3-mx-6-tr-ec-03.png)
+
+# renders
+
+## 6 column
+
+### choc trackball case with ec11 cutouts
+
+![render ffkb choc trackball case](images/ff-rp-u3-choc-6-tr-ec.png)
+
+### choc trackball case with evq cutouts
+
+![render ffkb choc trackball case with evq 01](images/ff-rp-u3-choc-6-tr-ev-01.png)
+
+![render ffkb choc trackball case with evq 02](images/ff-rp-u3-choc-6-tr-ev-02.png)
+
+## 5 column
+
+### choc trackball case with evq cutouts
+
+![render ffkb 5 col choc trackball case with evq 01](images/ff-rp-u3-choc-5-tr-ev-01.png)
+
+![render ffkb 5 col choc trackball case with evq 02](images/ff-rp-u3-choc-5-tr-ev-02.png)
