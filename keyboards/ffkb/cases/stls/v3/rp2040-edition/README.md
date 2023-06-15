@@ -20,6 +20,12 @@ To build this style case, you'll need:
 
 ![render ffkb choc trackball case](images/ff-rp-u3-choc-6-tr-ec.png)
 
+## choc trackball case with evq cutouts
+
+![render ffkb choc trackball case with evq 01](images/ff-rp-u3-choc-6-tr-ev-01.png)
+
+![render ffkb choc trackball case with evq 02](images/ff-rp-u3-choc-6-tr-ev-02.png)
+
 ## mx trackball case with ec11 cutouts
 
 ![render ffkb mx trackball case 01](images/ff-rp-u3-mx-6-tr-ec-01.png)
