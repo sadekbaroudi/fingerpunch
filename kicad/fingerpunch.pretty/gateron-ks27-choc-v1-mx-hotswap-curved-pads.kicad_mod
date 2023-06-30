@@ -1,6 +1,6 @@
 (footprint "gateron-ks27-choc-v1-mx-hotswap" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0.1 -8.5 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4c9fdea7-ba0c-45cc-8f66-240980c37d5c)
