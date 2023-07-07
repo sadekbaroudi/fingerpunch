@@ -48,8 +48,8 @@ The listings below are per half. If you do both sides, you'll need to double thi
 | Trackball sensor pcb          | 1           | Purchase from fingerpunch, or use https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb | To house the pmw3360 and sensor |
 | PMW3360DM-T2QU and lens       | 1           | http://fingerpunch.xyz/product/trackball-kit/ | Trackball sensor and lens |
 | M2 4mm heat set inserts       | 5 or 7      | - | Need 2 extra for trackball mounting. 5 for the case, and 2 for the trackball sensor mounting |
+| M2 5-6mm screws               | 5 or 7      | - | Each of these go into the heat set inserts noted above |
 | M2 washers                    | 2           | - | Only needed if you are building with the charybdis sensor pcb. The fingerpunch ones have M2 mounting holes, so these are not needed. |
-| M2 5-6mm screws               | 2           | - | N/A |
 | Ximi case                     | 1           | - | Case itself |
 | 34mm trackball                | 1           | - | Trackball to be placed in the case |
 | 4mm ball for trackball mount  | 3           | https://www.amazon.com/Diameter-Chrome-Steel-Bearing-Bearings/dp/B004YL325Q | BTU for the trackball to rest on and spin |
