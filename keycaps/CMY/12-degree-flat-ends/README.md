@@ -1,0 +1,1 @@
+If you want to use thumb stls for this set, use the 12 degree without the flat ends
