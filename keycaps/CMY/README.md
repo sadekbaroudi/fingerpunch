@@ -7,7 +7,7 @@ There is support for the following switch types:
 * Choc v1
 * KS-27 and KS-33
 
-Note: I do not recommend these for keyboards that have standard 18mm vertical spacing. These will leave a gap between the keycaps, and will not be as comfortable. That said, you can definitely use them on standard spacing if you like!
+Note: I do not recommend these for keyboards that have standard 19mm pcb vertical spacing. These will leave a gap between the keycaps, and will not be as comfortable. That said, you can definitely use them on standard spacing if you like!
 
 
 ## Build pics
