@@ -41,6 +41,14 @@ For the renders below, note that non-sculpted thumbs are not pictured. If you'd 
 
 ![CMY-12-lateral-45corner](images/CMY-12-lateral-45corner.png)
 
+### 12 degree edge columns
+
+![CMY-12-edge-col-45flat](images/CMY-12-edge-col-45flat.png)
+
+![CMY-12-edge-col-corner](images/CMY-12-edge-col-corner.png)
+
+![CMY-12-edge-col-front](images/CMY-12-edge-col-front.png)
+
 ### 12 degree vertical tilt flat ends
 
 ![CMY-12-flat-ends-lateral-side](images/CMY-12-flat-ends-lateral-side.png)
