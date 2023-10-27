@@ -62,3 +62,11 @@ For the renders below, note that non-sculpted thumbs are not pictured. If you'd 
 ![CMY-12-sculpted-thumbs-back](images/CMY-12-sculpted-thumbs-back.png)
 
 ![CMY-12-sculpted-thumbs-45corner](images/CMY-12-sculpted-thumbs-45corner.png)
+
+### Other
+
+![CMY-2U-front](images/CMY-2U-front.png)
+
+![CMY-2U-45corner](images/CMY-2U-45corner.png)
+
+
