@@ -1,9 +1,9 @@
-# ffkb v3 rp2040 usb-hub edition
+# ffkb v4
 
 # bom
 
 > **Note**
-> This list is only for the case build, but not the entire ffkb keyboard build. You'll still need the ffkb pcb and all the components required for a typical ffkb build. See the [ffkb v3 rp2040 usb-hub product page](https://fingerpunch.xyz/product/faux-fox-keyboard-v3-rp2040-hub)
+> This list is only for the case build, but not the entire ffkb keyboard build. You'll still need the ffkb pcb and all the components required for a typical ffkb build. See the [ffkb v4 usb-hub product page](https://fingerpunch.xyz/product/faux-fox-keyboard-v4)
 
 To build this style case, you'll need:
 * one of the case bodies
