@@ -1,0 +1,239 @@
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "JOYSTICK_ANALOG_XY" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "JOY" (at -5.969 -3.81 90)
+      (effects (font (size 1.0668 1.0668)) (justify left bottom))
+    )
+    (property "Value" "JOYSTICK_ANALOG_XY" (at -3.81 -3.81 90)
+      (effects (font (size 1.0668 1.0668)) (justify left bottom))
+    )
+    (property "Footprint" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (symbol "JOYSTICK_ANALOG_XY_1_0"
+      (polyline
+        (pts
+          (xy -3.175 2.4384)
+          (xy -1.7018 2.2352)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy -2.54 -0.508)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -0.508)
+          (xy -3.048 -1.524)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -0.508)
+          (xy -2.032 -1.524)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.159 1.27)
+          (xy -3.175 2.4384)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.159 1.27)
+          (xy -1.7018 2.2352)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.762 -2.54)
+          (xy 0.762 -2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.762 2.54)
+          (xy -0.762 -2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 -2.54)
+          (xy 0.762 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 2.54)
+          (xy -0.762 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.651 0)
+          (xy -1.8796 1.7526)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy 1.651 0)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (pin passive line (at 5.08 0 180) (length 2.54)
+        (name "S" (effects (font (size 0 0))))
+        (number "X" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "E" (effects (font (size 0 0))))
+        (number "X+" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "A" (effects (font (size 0 0))))
+        (number "X-" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "JOYSTICK_ANALOG_XY_2_0"
+      (polyline
+        (pts
+          (xy -3.175 2.4384)
+          (xy -1.7018 2.2352)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy -2.54 -0.508)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -0.508)
+          (xy -3.048 -1.524)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -0.508)
+          (xy -2.032 -1.524)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.159 1.27)
+          (xy -3.175 2.4384)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.159 1.27)
+          (xy -1.7018 2.2352)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.762 -2.54)
+          (xy 0.762 -2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.762 2.54)
+          (xy -0.762 -2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 -2.54)
+          (xy 0.762 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.762 2.54)
+          (xy -0.762 2.54)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.651 0)
+          (xy -1.8796 1.7526)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy 1.651 0)
+        )
+        (stroke (width 0) (type solid))
+        (fill (type none))
+      )
+      (pin passive line (at 5.08 0 180) (length 2.54)
+        (name "S" (effects (font (size 0 0))))
+        (number "Y" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 5.08 270) (length 2.54)
+        (name "E" (effects (font (size 0 0))))
+        (number "Y+" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -5.08 90) (length 2.54)
+        (name "A" (effects (font (size 0 0))))
+        (number "Y-" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
