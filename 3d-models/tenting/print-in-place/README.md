@@ -8,6 +8,9 @@ Also, I left a slight connection between the parts so the stl will be printable 
 
 See pictures and video below  
 
+
+https://github.com/sadekbaroudi/fingerpunch/assets/299248/570b4dae-5ebb-4bdd-9a97-4ad69e94a5aa
+
 ![connections](images/connections.png)
 
 ![top](images/top.png)
