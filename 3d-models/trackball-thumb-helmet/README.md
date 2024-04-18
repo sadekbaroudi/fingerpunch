@@ -20,7 +20,7 @@ To make one of these, you need the following:
 * A [vik pmw3360](https://github.com/sadekbaroudi/vik/tree/master/pcb/pmw3360), [vik pmw3360-xs](https://github.com/sadekbaroudi/vik/tree/master/pcb/pmw3360-xs), or [vik pmw3610](https://github.com/sadekbaroudi/vik/tree/master/pcb/pmw3610) module
 * A pmw3360 or pmw3610 optical sensor (depending on which vik module you're using)
 * A 34mm trackball
-* 2x [M2 mounting screws](M2-mounting-screws.png)
+* 2x [M2 mounting screws](images/M2-mounting-screws.png)
 * 2x 4mm M2 screws
 
 ## images
