@@ -1,8 +1,6 @@
 # trackball thumb helmet
 
-
-![trackball-thumb-helmet-demo](images/trackball-thumb-helmet-demo.mp4)
-
+https://github.com/sadekbaroudi/fingerpunch/assets/299248/0a0a54da-1fb9-476b-b6f7-2957c06ed985
 
 ## options
 
