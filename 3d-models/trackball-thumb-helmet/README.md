@@ -22,6 +22,7 @@ To make one of these, you need the following:
 * A 34mm trackball
 * 2x [M2 mounting screws](images/M2-mounting-screws.png)
 * 2x 4mm M2 screws
+* 3x 2mm bearings (steel or ceramic work great)
 
 ## images
 
