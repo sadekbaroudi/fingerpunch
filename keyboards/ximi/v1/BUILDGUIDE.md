@@ -47,7 +47,8 @@ The recommended order for soldering is:
 	* Option 2: Soldered wires: Run the wires through the bottom of the trackball breakout and solder from the top. Then cut the wires flush from the top. They should be in the opposite order from the main pcb. See the pictures below to make sure you do this correctly. 
 * Cirque trackpad connection
 	* When using the trackpad, make sure you set the switch on the back of the pcb to "Pad"
-	* Please note that you need to remove the R1 resistor from the back of the cirque trackpad. There is an example of me doing it for the a rock on build in this video: https://www.youtube.com/watch?v=LKTFEaT3yzU&t=1686s
+	* Please note that this only applies if you have a ximi v1. If you have a v1.1 or later, you do not require this step. You need to remove the R1 resistor from the back of the cirque trackpad. There is an example of me doing it for the a rock on build in this video: https://www.youtube.com/watch?v=LKTFEaT3yzU&t=1686s
+	* If you did remove the R1 resistor in the previous step, you will need to update the ximi firmware to use i2c. Look for `POINTING_DEVICE_DRIVER := cirque_pinnacle_spi` in the file `keyboards/fingerpunch/ximi/rules.mk`, and change it to use `cirque_pinnacle_i2c` instead.
 	* Also, you may need to remove the overlay. It's a known issue on some cirques. I'd recommend first testing before removing it. If you're seeing erratic movements or inconsistency, it's likely this. Video of this process is here: https://www.youtube.com/watch?v=_9lTZ1vEtGA&t=2s&ab_channel=fingerpunch
 	* You can make your own replacement overlay by cutting some vinyl stickers, and placing it on top. Or you can buy some pre-cut ones here: https://www.etsy.com/listing/1317302992/cirque-trackpad-cover-35mm
 
