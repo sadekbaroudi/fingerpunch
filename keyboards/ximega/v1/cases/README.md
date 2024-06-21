@@ -2,7 +2,7 @@
 
 ## overview
 
-First and foremost, please note that all files are for the left half, and can be mirrored to make the right half. At the time of this writing, the exceptions to this are the cirque trackpad covers, since the mounting for the cirque is asymmetrical. For that cover, you'll notice there is a `left` and `right` version of the cover.  
+First and foremost, please note that there may be some files are for the left half, and don't have a corresponding right half. This means they can be mirrored to make the right half. For those that are asymmetrical and require different case models for each half, you'll notice there is a `left` and `right` version of that cover.  
 
 To mirror a file, there are a variety of ways to do this:
 * Mirror in your slicer before printing
@@ -15,8 +15,9 @@ To make a case for ximega, you'll need a minimum of 6 pieces:
 * `ximega-base.stl` - left and right base, which are universal for MX or choc/glp (gateron low profile)
 * `ximega-mx-switchplate.stl` or `ximega-choc-glp-switchplate.stl` - left and right switchplates
 * An appropriate cover - There are `mx` and `choc-glp` versions of all covers, and there are different covers for the various VIK modules that you may be using. You'll need to select one for each half and print.
+* Some covers require additional prints, like the trackball and display, which have an additional cover to go on top. The names should tell you which files to use. For example, `ximega-vik-pmw3360-34mm-trackball-cover.stl` would go with `ximega-mx-cover-vik-pmw3360-34mm-left.stl`
 
-Note that the parts are testing using FDM 3D printing. Tolerances may vary depending on printing approach or materials used.
+Note that the parts are testing using FDM 3D printing. Tolerances may vary depending on printing approach or materials used. Also, in my experience, some of the corners of the models lift a bit when using FDM if you don't have a finely tuned printer and good adhesion. If that's the case, I recommend using a brim, and then removing the brim with a deburring tool.
 
 ## parts for assembly
 
