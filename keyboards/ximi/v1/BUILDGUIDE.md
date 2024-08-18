@@ -18,6 +18,8 @@ This includes:
 
 Please see the pictures below to see how everything is soldered.
 
+**Important note: the existing method of using wires to connect the trackball breakout to the main pcb is no longer applicable! Use the FPC cable instead of wiring. Some of the images below indicate that you need to do that. You do not. You can still hand wire if you like, but it's a more tedious option, and is not necessary**
+
 The recommended order for soldering is:
 * Per key leds
 	* Should be soldered on the bottom side, with the led facing down. Be sure to solder the lead of the led that has a cut in it such that it's aligned with the triangle silkscreen.
@@ -41,10 +43,10 @@ The recommended order for soldering is:
 	* If you have an EC11 encoder in, you may want to put some non-conductive tape over the hole and EC11 leads to make sure nothing conducts
 	* Solder the haptic feedback leads. Remember that to make this as flush as possible, you should have removed the black plastic from the headers in the previous step.
 * Trackball sensor (to trackball breakout pcb)
-	* Solder the trackball sensor on the bottom of the trackball breakout pcb, with the leads going up through to the top. Be sure to align the little dot on the back of the sensor with the circle on the breakout pcb. This also has a square through hole pad.
+	* Solder the trackball sensor on the bottom of the trackball breakout pcb, with the leads going up through to the top. Be sure to align the little dot on the back of the sensor with the square pad on the breakout PCB. See last image on this page.
 * Trackball connectivity (from the main pcb to the trackball breakout)
 	* Option 1: FPC cable: Use a 12 position 0.5mm pitch Type A fpc cable to connect the pcb to the breakout board. Be sure to set the switch on the back of the pcb to Ball (as opposed to Pad)
-	* Option 2: Soldered wires: Run the wires through the bottom of the trackball breakout and solder from the top. Then cut the wires flush from the top. They should be in the opposite order from the main pcb. See the pictures below to make sure you do this correctly. 
+	* **(NO LONGER APPLICABLE)** Option 2: Soldered wires: Run the wires through the bottom of the trackball breakout and solder from the top. Then cut the wires flush from the top. They should be in the opposite order from the main pcb. See the pictures below to make sure you do this correctly. 
 * Cirque trackpad connection
 	* When using the trackpad, make sure you set the switch on the back of the pcb to "Pad"
 	* Please note that this only applies if you have a ximi v1. If you have a v1.1 or later, you do not require this step. You need to remove the R1 resistor from the back of the cirque trackpad. There is an example of me doing it for the a rock on build in this video: https://www.youtube.com/watch?v=LKTFEaT3yzU&t=1686s
@@ -73,7 +75,5 @@ The recommended order for soldering is:
 ![ximi bottom in case](images/ximi_v1_bottom_in_case.jpg)
 
 ![ximi breakout cable](images/ximi_v1.1_trackball_fpc.jpg)
-
-![ximi breakout wiring](images/ximi_v1_trackball_breakout_wiring.jpg)
 
 ![ximi sensor orientation](images/ximi_v1_trackball_sensor_orientation.png)
