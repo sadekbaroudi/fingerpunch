@@ -24,9 +24,17 @@ Additional parts:
 
 ### bottom plates
 
-Note that the bottom plates have two versions, the standard and the `flat-bot`. The flat bot are intended to be used if you want to reduce the height of the case. Note that there isn't much room beneath the PCB if you use the `flat-bot`, so you'll likely need a battery with longer wires, and you'll need to run it through the cirque fpc cutout to house it under run the battery through the cirque trackpad cutout.
+Note that the bottom plates have two versions, the standard (tall), the `mid-bot`, and the `flat-bot`.
 
-That said, if you're using the `flat-bot` with an MX case, you can mount the JST connector on *top* of the PCB, and run the wire to the center area. You can't do this for a choc build because the PCB rests right up against the body's switch plate.
+### mid-bot
+
+The mid bot are intended to have cutouts in the bottom plate to reduce the height by a couple of millimeters. No change in build required, except that you must use a battery that's a bit thinner than using the standard (tall). It should accommodate a 4mm thick battery, depending on the width, length, and the length of the wires.
+
+### flat-bot
+
+The flat bot bottom plates are intended to be used if you want to reduce the height of the case down to a minimum. Note that there isn't much room beneath the PCB if you use the `flat-bot`, so you'll eed a battery with longer wires, and you'll need to run it through the cirque fpc cutout to house it under run the battery through the cirque trackpad cutout. This plate also requires that you solder the battery directly instead of using a JST connector
+
+That said, if you're using the `flat-bot` with an MX case, connect the battery on *top* of the PCB, and run the wire to the center area. You can't do this for a choc build because the PCB rests right up against the body's switch plate.
 
 Warning: The `flat-bot` bottom plates have not been tested, so please notify me if you find any issues and I can update the model to fix any issues. I am fairly confident they are correct, as they were measured based on the PCB design and components.
 
