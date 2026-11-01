@@ -23,12 +23,12 @@ User contributed build logs:
 
 ## Custom LEDs
 
-As of the ffkb v3 and ffkb v2 ks-27 switch edition, you can now add your own individually addressible LEDs using the LED breakout section.
+As of the ffkb v3 and ffkb v2 ks-27 switch edition, you can now add your own individually addressable LEDs using the LED breakout section.
 
 To do so, wire as follows:
 * Din on the ffkb pcb to the data in of your first led
 * GND to GND of your first led
-* 5v to VCC of your first led (note that if the controller you are using is a 3.3v controller, this 5V pin will match your conroller)
+* 5v to VCC of your first led (note that if the controller you are using is a 3.3v controller, this 5V pin will match your controller)
 * Wire the last LED data out to the Dout on the ffkb pcb. This step is not necessary if you are not using the per key leds on the ffkb pcb.
 
 ![oledsocket](images/custom-leds.png)
